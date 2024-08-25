@@ -1,0 +1,68 @@
+{
+    "Produtos": [
+    { 
+        "id": "00001",
+        "nome": "Arroz São Joaquim",
+        "preço": 8.50,
+        "imagem": "/home/laecyo/Documents/Organizing-my-knowledge/'T.I studies by myself'/'PROJETO - SISTEMA ERP - LOP'/'PDV SIMPLES COM REACT'/'PDV - Imagens'/'Arroz São Joaquim.jpg'"
+    },
+
+    { 
+        "id": "00002",
+        "nome": "Aveia integral em flocos Quaker",
+        "preço": 4.50,
+        "imagem": "/home/laecyo/Documents/Organizing-my-knowledge/'T.I studies by myself'/'PROJETO - SISTEMA ERP - LOP'/'PDV SIMPLES COM REACT'/'PDV - Imagens'/'Aveia integral em flocos Quaker.jpg'"
+    },
+
+    {
+        "id": "00003",
+        "nome": "Achocolatado em pó Nescau",
+        "preço": 11.00,
+        "imagem": "/home/laecyo/Documents/Organizing-my-knowledge/'T.I studies by myself'/'PROJETO - SISTEMA ERP - LOP'/'PDV SIMPLES COM REACT'/'PDV - Imagens'/'Achocolatado em pó Nescau.jpg'"
+    },
+
+    {
+        "id": "00004",
+        "nome": "Açucar refinado Dumel",
+        "preço": 5.50,
+        "imagem": "/home/laecyo/Documents/Organizing-my-knowledge/'T.I studies by myself'/'PROJETO - SISTEMA ERP - LOP'/'PDV SIMPLES COM REACT'/'PDV - Imagens'/'Açucar refinado Dumel.jpg'"
+    },
+
+    {
+        "id": "00005",
+        "nome": "Café Santa Clara",
+        "preço": 11.80,
+        "imagem": "/home/laecyo/Documents/Organizing-my-knowledge/'T.I studies by myself'/'PROJETO - SISTEMA ERP - LOP'/'PDV SIMPLES COM REACT'/'PDV - Imagens'/'Café Santa Clara.jpg'"
+    },
+
+    {
+        "id": "00006",
+        "nome": "Farinha de milho flocada Flocão Nordestino",
+        "preço": 2.20,
+        "imagem": "/home/laecyo/Documents/Organizing-my-knowledge/'T.I studies by myself'/'PROJETO - SISTEMA ERP - LOP'/'PDV SIMPLES COM REACT'/'PDV - Imagens'/'Farinha de milho flocada Flocão Nordestino.jpg'"
+    },
+    
+    {
+        "id": "00007",
+        "nome": "Macarrão espaguete Vitarella",
+        "preço": 4.00,
+        "imagem": "/home/laecyo/Documents/Organizing-my-knowledge/'T.I studies by myself'/'PROJETO - SISTEMA ERP - LOP'/'PDV SIMPLES COM REACT'/'PDV - Imagens'/'Macarrão espaguete Vitarella.jpg'"
+    },
+
+    {
+        "id": "00008",
+        "nome": "Macarrão instantâneo Nissin Lámen",
+        "preço": 2.50,
+        "imagem": "/home/laecyo/Documents/Organizing-my-knowledge/'T.I studies by myself'/'PROJETO - SISTEMA ERP - LOP'/'PDV SIMPLES COM REACT'/'PDV - Imagens'/'Macarrão instantâneo Nissin Lámen .jpg'"
+    },
+    
+    {
+        "id": "00009",
+        "nome": "Amido de Milho Maizena",
+        "preço": 5.60,
+        "imagem": "/home/laecyo/Documents/Organizing-my-knowledge/'T.I studies by myself'/'PROJETO - SISTEMA ERP - LOP'/'PDV SIMPLES COM REACT'/'PDV - Imagens'/'Amido de Milho Maizena.jpg'"
+    }
+
+    
+    ]
+}

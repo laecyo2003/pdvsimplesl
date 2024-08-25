@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.barra-navegacao {
+  background-color: #fd8918; /* Cor para o background */
+  color: #232220; /* Cor para o texto */
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.botao-pdv {
+  background-color: #fd8918;
+  color: #232220;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none; 
+
+}
+.botao-cadprod {
+  background-color: #fd8918;
+  color: #232220;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: medium;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none; 
+
+}
