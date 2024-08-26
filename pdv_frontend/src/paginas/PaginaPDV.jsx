@@ -22,12 +22,27 @@ const PDV = () => {
         // Encontrando produtos na venda e modificando quantidades
         let NovaVenda = [];
         let NovoProduto;
-        Venda.forEach()
+        Venda.forEach(ProdutoNaVenda =>{
+            if(ProdutoNaVenda.id === Produtos.id){
+                NovoProduto = {
+                    ...ProdutoNaVenda,
+                    Quantidade: ProdutoNaVenda.Quantidade + 1,
+                    ValorTotal: ProdutoNaVenda.preco * (ProdutoNaVenda.Quantidade + 1)
+                }
+                NovaVenda.push(NovoProduto);
+            }else{
+                NovaVenda.push(ProdutoNaVenda);
+            }
+        });
+        setVenda(NovaVenda);
+
+
+
     }else{
         let AdicionarProduto = {
             ...Produtos,
             'Quantidade': 1,
-            'Valor total': Produtos.preco,
+            'Valor total': Produtos.preco
             }
             setVenda([...Venda, AdicionarProduto])
     } 
@@ -63,7 +78,46 @@ const PDV = () => {
 
         </div>
 
-        <div className='col-lg-4'></div>
+        <div className='col-lg-4'>
+            <div className='table-responsive bg-dark'> 
+                <table className='table table-responsive table-dark table-hover'> 
+                    <thead>
+                        <tr>
+                            <td> Código do produto </td>
+                            <td> Nome do produto </td>
+                            <td> Preço do produto </td>
+                            <td> Quantidade </td>
+                            <td> Valor Total </td>
+                            <td> Ação: finalizar compra ou deletar um produto </td>
+
+                            
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        { Venda ? Venda.map((MostrarProdutoNaVenda, chave) => 
+                        <tr>
+                            <td> MostrarProdutoNaVenda.id </td>
+                            <td> MostrarProdutoNaVenda.nome </td>
+                            <td> MostrarProdutoNaVenda.preco </td>
+                            <td> MostrarProdutoNaVenda.Quantidade </td>
+                            <td> MostrarProdutoNaVenda.ValorTotal </td>
+                            <td>  
+                                <button className='btn btn-danger btn-sm'> Remover produto </button>
+                            </td>
+                        </tr>)
+
+                         
+                        : 'Não há produtos na venda'}
+                    </tbody>
+                </table>
+
+
+             </div>
+
+
+
+        </div>
 
         
 
