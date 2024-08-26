@@ -65,7 +65,7 @@ const PDV = () => {
         <div className='col-lg-8'>
             {EstaCarregando ? 'Carregando' : <div className='row'>
                 {Produtos.map((Produtos, chave) =>
-                <div chave={chave} className='col-sm-4'>
+                <div key={chave} className='col-sm-4'>
                     <div className='border' onClick={() => AdicionarProdutoAVenda(Produtos)}>
                         <p> {Produtos.nome} </p>
                         <img src={Produtos.imagem} className="img-fluid" alt={Produtos.nome} />
@@ -95,13 +95,13 @@ const PDV = () => {
                     </thead>
                     
                     <tbody>
-                        { Venda ? Venda.map((MostrarProdutoNaVenda, chave) => 
-                        <tr>
-                            <td> MostrarProdutoNaVenda.id </td>
-                            <td> MostrarProdutoNaVenda.nome </td>
-                            <td> MostrarProdutoNaVenda.preco </td>
-                            <td> MostrarProdutoNaVenda.Quantidade </td>
-                            <td> MostrarProdutoNaVenda.ValorTotal </td>
+                        { Venda ? Venda.map((MostrarProdutoNaVenda, chave1) => 
+                        <tr key={chave1}>
+                            <td> {MostrarProdutoNaVenda.id} </td>
+                            <td> {MostrarProdutoNaVenda.nome} </td>
+                            <td> R$ {MostrarProdutoNaVenda.preco} </td>
+                            <td> {MostrarProdutoNaVenda.Quantidade} </td>
+                            <td> R$ {MostrarProdutoNaVenda.ValorTotal} </td>
                             <td>  
                                 <button className='btn btn-danger btn-sm'> Remover produto </button>
                             </td>
