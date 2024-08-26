@@ -23,7 +23,7 @@ code {
   border: none;
   padding: 10px 20px;
   font-family: 'Roboto', sans-serif;
-  font-weight: medium;
+  font-weight: bold;
   font-size: 16px;
   border-radius: 5px;
   text-align: center;
@@ -36,10 +36,16 @@ code {
   border: none;
   padding: 10px 20px;
   font-family: 'Roboto', sans-serif;
-  font-weight: medium;
+  font-weight: bold;
   font-size: 16px;
   border-radius: 5px;
   text-align: center;
   text-decoration: none; 
 
+}
+.titulo-aplicacao {
+  background-color: #fd8918; /* Cor para o background */
+  color: #232220; /* Cor para o texto */
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
