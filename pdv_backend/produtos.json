@@ -4,63 +4,63 @@
         "id": "00001",
         "nome": "Arroz São Joaquim",
         "preço": 8.50,
-        "imagem": "https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/Arroz%20S%C3%A3o%20Joaquim.jpg?raw=true"
+        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Arroz%20S%C3%A3o%20Joaquim.jpg?raw=true"
     },
 
     { 
         "id": "00002",
         "nome": "Aveia integral em flocos Quaker",
         "preço": 4.50,
-        "imagem": "https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/Aveia%20integral%20em%20flocos%20Quaker.jpg?raw=true"
+        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Aveia%20integral%20em%20flocos%20Quaker.jpg?raw=true"
     },
 
     {
         "id": "00003",
         "nome": "Achocolatado em pó Nescau",
         "preço": 11.00,
-        "imagem": "https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/Achocolatado%20em%20p%C3%B3%20Nescau.jpg?raw=true"
+        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Achocolatado%20em%20p%C3%B3%20Nescau.jpg?raw=true"
     },
 
     {
         "id": "00004",
         "nome": "Açucar refinado Dumel",
         "preço": 5.50,
-        "imagem": "https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/A%C3%A7ucar%20refinado%20Dumel.jpg?raw=true"
+        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/A%C3%A7ucar%20refinado%20Dumel.jpg?raw=true"
     },
 
     {
         "id": "00005",
         "nome": "Café Santa Clara",
         "preço": 11.80,
-        "imagem": "https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/A%C3%A7ucar%20refinado%20Dumel.jpg?raw=true"
+        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Caf%C3%A9%20Santa%20Clara.jpg?raw=true"
     },
 
     {
         "id": "00006",
         "nome": "Farinha de milho flocada Flocão Nordestino",
         "preço": 2.20,
-        "imagem": "https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/Farinha%20de%20milho%20flocada%20Floc%C3%A3o%20Nordestino.jpg?raw=true"
+        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Farinha%20de%20milho%20flocada%20Floc%C3%A3o%20Nordestino.jpg?raw=true"
     },
     
     {
         "id": "00007",
         "nome": "Macarrão espaguete Vitarella",
         "preço": 4.00,
-        "imagem": "https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/Macarr%C3%A3o%20espaguete%20Vitarella.jpg?raw=true"
+        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Macarr%C3%A3o%20espaguete%20Vitarella.jpg?raw=true"
     },
 
     {
         "id": "00008",
         "nome": "Macarrão instantâneo Nissin Lámen",
         "preço": 2.50,
-        "imagem": "https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/Macarr%C3%A3o%20instant%C3%A2neo%20Nissin%20L%C3%A1men%20.jpg?raw=true"
+        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Macarr%C3%A3o%20instant%C3%A2neo%20Nissin%20L%C3%A1men%20.jpg?raw=true"
     },
     
     {
         "id": "00009",
         "nome": "Amido de Milho Maizena",
         "preço": 5.60,
-        "imagem": "https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/Amido%20de%20Milho%20Maizena.jpg?raw=true"
+        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Amido%20de%20Milho%20Maizena.jpg?raw=true"
     }
 
     
