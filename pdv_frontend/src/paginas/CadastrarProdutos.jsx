@@ -1,10 +1,10 @@
 import React from 'react';
-
+import LayoutPrincipal from '../layouts/LayoutPrincipal';
 const CadastrarProdutos = () => {
     return (
-        <div>
-            Cadastrar Produtos
-        </div>
+        <LayoutPrincipal>
+            Conteúdo da página de Cadastro de produtos
+        </LayoutPrincipal>
     );
 }
 
