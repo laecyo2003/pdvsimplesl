@@ -71,6 +71,12 @@ const PDV = () => {
         setValorFinal(NovoValorFinal);
       },[Venda])
 
+
+    const FormatarValorParaPTBR = (valor) => {
+        return valor.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'});
+    };
+
+
     return (
 
 <LayoutPrincipal> 
@@ -82,7 +88,7 @@ const PDV = () => {
                     <div className='border' onClick={() => AdicionarProdutoAVenda(Produtos)}>
                         <p> {Produtos.nome} </p>
                         <img src={Produtos.imagem} className="img-fluid" alt={Produtos.nome} />
-                        <p> R${Produtos.preco} </p>
+                        <p> {FormatarValorParaPTBR(Produtos.preco)} </p>
                     </div>
                 </div>
             )}                
@@ -112,9 +118,9 @@ const PDV = () => {
                         <tr key={chave1}>
                             <td> {ProdutoExibidonaVenda.id} </td>
                             <td> {ProdutoExibidonaVenda.nome} </td>
-                            <td> R$ {ProdutoExibidonaVenda.preco} </td>
+                            <td> {FormatarValorParaPTBR(ProdutoExibidonaVenda.preco)} </td>
                             <td> {ProdutoExibidonaVenda.Quantidade} </td>
-                            <td> R$ {ProdutoExibidonaVenda.ValorTotalDoProdutoNaVenda} </td>
+                            <td> {FormatarValorParaPTBR(ProdutoExibidonaVenda.ValorTotalDoProdutoNaVenda)} </td>
                             <td>  
                                 <button className='btn btn-danger btn-sm' onClick={() => RemoverProdutodaVenda(ProdutoExibidonaVenda)} > Remover produto </button>
                             </td>
@@ -125,7 +131,7 @@ const PDV = () => {
                     </tbody>
                 </table>
                 <h2 className= 'px-2 text-white'> Valor Final </h2>
-                <h2 className= 'px-2 text-white'> R$ {ValorFinal} </h2>
+                <h2 className= 'px-2 text-white'> {FormatarValorParaPTBR(ValorFinal)} </h2>
 
              </div>
 
