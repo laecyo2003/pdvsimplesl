@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import LayoutPrincipal from '../layouts/LayoutPrincipal';
 import axios from "axios"
+import {toast} from 'react-toastify';
 const PDV = () => {
     const [Produtos, setProdutos] = useState([]);
     const [EstaCarregando, setEstaCarregando] = useState(false);
@@ -37,6 +38,7 @@ const PDV = () => {
             }
         });
         setVenda(NovaVenda);
+        toast(`${NovoProduto.nome} foi adicionado à venda`)
 
 
 
@@ -47,6 +49,7 @@ const PDV = () => {
             'ValorTotalDoProdutoNaVenda': Produtos.preco
             }
             setVenda([...Venda, AdicionarProduto])
+            toast(`${Produtos.nome} foi adicionado à venda`)
     } 
 
     }

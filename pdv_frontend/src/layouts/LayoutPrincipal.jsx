@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const LayoutPrincipal = ({children}) => {
     return (
         <div>
@@ -16,6 +17,7 @@ const LayoutPrincipal = ({children}) => {
                 <div className='conatiner mt-3'>
                     {children}
                 </div>
+                <ToastContainer/>
             </main>
         </div>
     );
