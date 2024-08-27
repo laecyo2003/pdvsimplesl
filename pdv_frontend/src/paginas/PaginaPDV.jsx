@@ -5,6 +5,8 @@ const PDV = () => {
     const [Produtos, setProdutos] = useState([]);
     const [EstaCarregando, setEstaCarregando] = useState(false);
     const [Venda, setVenda] = useState([]);
+    const [ValorFinal, setValorFinal] = useState(0);
+
     const CapturandoProdutos = async() => {
         setEstaCarregando(true);
         const resultado = await axios.get('Produtos');
@@ -27,7 +29,7 @@ const PDV = () => {
                 NovoProduto = {
                     ...ProdutoNaVenda,
                     Quantidade: ProdutoNaVenda.Quantidade + 1,
-                    ValorTotal: ProdutoNaVenda.preco * (ProdutoNaVenda.Quantidade + 1)
+                    ValorTotalDoProdutoNaVenda: ProdutoNaVenda.preco * (ProdutoNaVenda.Quantidade + 1)
                 }
                 NovaVenda.push(NovoProduto);
             }else{
@@ -42,12 +44,16 @@ const PDV = () => {
         let AdicionarProduto = {
             ...Produtos,
             'Quantidade': 1,
-            'Valor total': Produtos.preco
+            'ValorTotalDoProdutoNaVenda': Produtos.preco
             }
             setVenda([...Venda, AdicionarProduto])
     } 
-    
 
+    }
+
+    const RemoverProdutodaVenda = async(Produtos) => {
+        const NovaVendaRemoverProduto = Venda.filter(ProdutoNaVenda => ProdutoNaVenda.id !== Produtos.id);
+        setVenda(NovaVendaRemoverProduto);
 
 
 
@@ -57,6 +63,13 @@ const PDV = () => {
         CapturandoProdutos();
     }, []);
 
+    useEffect(() => {
+        let NovoValorFinal = 0;
+        Venda.forEach(iVenda => {
+          NovoValorFinal = NovoValorFinal + (iVenda.ValorTotalDoProdutoNaVenda);
+        })
+        setValorFinal(NovoValorFinal);
+      },[Venda])
 
     return (
 
@@ -88,22 +101,22 @@ const PDV = () => {
                             <td> Preço do produto </td>
                             <td> Quantidade </td>
                             <td> Valor Total </td>
-                            <td> Ação: finalizar compra ou deletar um produto </td>
+                            <td> Ação </td>
 
                             
                         </tr>
                     </thead>
                     
                     <tbody>
-                        { Venda ? Venda.map((MostrarProdutoNaVenda, chave1) => 
+                        { Venda ? Venda.map((ProdutoExibidonaVenda, chave1) => 
                         <tr key={chave1}>
-                            <td> {MostrarProdutoNaVenda.id} </td>
-                            <td> {MostrarProdutoNaVenda.nome} </td>
-                            <td> R$ {MostrarProdutoNaVenda.preco} </td>
-                            <td> {MostrarProdutoNaVenda.Quantidade} </td>
-                            <td> R$ {MostrarProdutoNaVenda.ValorTotal} </td>
+                            <td> {ProdutoExibidonaVenda.id} </td>
+                            <td> {ProdutoExibidonaVenda.nome} </td>
+                            <td> R$ {ProdutoExibidonaVenda.preco} </td>
+                            <td> {ProdutoExibidonaVenda.Quantidade} </td>
+                            <td> R$ {ProdutoExibidonaVenda.ValorTotalDoProdutoNaVenda} </td>
                             <td>  
-                                <button className='btn btn-danger btn-sm'> Remover produto </button>
+                                <button className='btn btn-danger btn-sm' onClick={() => RemoverProdutodaVenda(ProdutoExibidonaVenda)} > Remover produto </button>
                             </td>
                         </tr>)
 
@@ -111,7 +124,8 @@ const PDV = () => {
                         : 'Não há produtos na venda'}
                     </tbody>
                 </table>
-
+                <h2 className= 'px-2 text-white'> Valor Final </h2>
+                <h2 className= 'px-2 text-white'> R$ {ValorFinal} </h2>
 
              </div>
 

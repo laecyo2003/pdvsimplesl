@@ -3,63 +3,63 @@
     { 
         "id": 0,
         "nome": "Arroz São Joaquim",
-        "preco": 8.50,
+        "preco": "8.50",
         "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Arroz%20S%C3%A3o%20Joaquim.jpg?raw=true"
     },
 
     { 
         "id": 1,
         "nome": "Aveia integral em flocos Quaker",
-        "preco": 4.50,
+        "preco": "4.50",
         "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Aveia%20integral%20em%20flocos%20Quaker.jpg?raw=true"
     },
 
     {
         "id": 2,
         "nome": "Achocolatado em pó Nescau",
-        "preco": 11.00,
+        "preco": "11.00",
         "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Achocolatado%20em%20p%C3%B3%20Nescau.jpg?raw=true"
     },
 
     {
         "id": 3,
         "nome": "Açucar refinado Dumel",
-        "preco": 5.50,
+        "preco": "5.50",
         "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/A%C3%A7ucar%20refinado%20Dumel.jpg?raw=true"
     },
 
     {
         "id": 4,
         "nome": "Café Santa Clara",
-        "preco": 11.80,
+        "preco": "11.80",
         "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Caf%C3%A9%20Santa%20Clara.jpg?raw=true"
     },
 
     {
         "id": 5,
         "nome": "Farinha de milho flocada Flocão Nordestino",
-        "preco": 2.25,
+        "preco": "2.20",
         "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Farinha%20de%20milho%20flocada%20Floc%C3%A3o%20Nordestino.jpg?raw=true"
     },
     
     {
         "id": 6,
         "nome": "Macarrão espaguete Vitarella",
-        "preco": 4.00,
+        "preco": "4.00",
         "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Macarr%C3%A3o%20espaguete%20Vitarella.jpg?raw=true"
     },
 
     {
         "id": 7,
         "nome": "Macarrão instantâneo Nissin Lámen",
-        "preco": 2.50,
+        "preco": "2.50",
         "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Macarr%C3%A3o%20instant%C3%A2neo%20Nissin%20L%C3%A1men%20.jpg?raw=true"
     },
     
     {
         "id": 8,
         "nome": "Amido de Milho Maizena",
-        "preco": 5.60,
+        "preco": "5.60",
         "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Amido%20de%20Milho%20Maizena.jpg?raw=true"
     }
 
