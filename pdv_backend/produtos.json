@@ -119,6 +119,12 @@
       "nome": "Pine azul",
       "preco": 8.5,
       "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKOHyAsS2NextEvPxugtJO3VyZWdU9NTGN4A&s"
+    },
+    {
+      "id": 20,
+      "nome": "Caneta Bic",
+      "preco": 2,
+      "imagem": "https://brasilcopias.com.br/wp-content/uploads/2022/03/caneta-bic_1.jpg"
     }
   ]
 }

@@ -11,10 +11,10 @@ const PaginaInicial = () => {
                     </div>
                 </div>
                 <div className='conatiner-botao1 mb-4 text-center' >
-                    <Link to='./pdv' className='btn btn-dark botao-pdv' > Clique aqui para iniciar uma nova venda </Link>
+                    <Link to='./pdv' className='btn btn-dark botao-pdv' style={{fontSize: '50px', textAlign: 'center', fontWeight: 'bold'}}  > Clique aqui para iniciar uma nova venda </Link>
                 </div>
                 <div className='conatiner-botao2 mb-5 text-center'>
-                    <Link to='./cadprod' className='btn btn-dark botao-cadprod'> Clique aqui para cadastrar um novo produto </Link>
+                    <Link to='./cadprod' className='btn btn-dark botao-cadprod' style={{fontSize: '50px', textAlign: 'center', fontWeight: 'bold'}} > Clique aqui para cadastrar um novo produto </Link>
                 </div>
 
 

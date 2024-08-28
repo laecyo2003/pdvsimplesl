@@ -65,7 +65,7 @@ const AddProduct = () => {
         setFalha(toast.error(`Você está tentando adicionar um produto com ID já existente no banco de dados! Por favor, adicione um ID ainda não utilizado.`, 
           {
             position: "top-center",
-            autoClose: 8000,
+            autoClose: 12000,
           }
         ))
         setSafe(''); // Clear success message if there's an error
@@ -78,7 +78,7 @@ const AddProduct = () => {
         setSafe(toast.success(`Produto adicionado com sucesso! Parabéns, você acabou de adicionar um novo produto ao banco de dados.`, 
           {
             position: "top-center",
-            autoClose: 8000,
+            autoClose: 12000,
           }
         ))
   
@@ -149,7 +149,7 @@ const AddProduct = () => {
           />
         </div>
         <div className= 'text-center mb-3'>
-          <button className= 'btn btn-success btn-center btn-lg mb-4' style={{fontSize: '50px', textAlign: 'center', fontWeight: 'bold'}} > Adicionar produto </button>
+          <button className= 'btn btn-success btn-center botao-addprod mb-4' style={{fontSize: '50px', textAlign: 'center', fontWeight: 'bold'}} > Adicionar produto </button>
         </div>
         
         {Falha && <p style={{ color: 'red' }}>{Falha}</p>}
