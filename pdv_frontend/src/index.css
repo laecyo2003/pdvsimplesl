@@ -71,3 +71,15 @@ code {
   text-decoration: none; 
 
 }
+.botao-calc-troco {
+  background-color: #fd8918;
+  color: #232220;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none; 
+}
