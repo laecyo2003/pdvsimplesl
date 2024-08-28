@@ -2,31 +2,9 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import LayoutPrincipal from '../layouts/LayoutPrincipal';
 import {toast} from 'react-toastify';
-import '../App.css'; // Ensure this import is present
+import '../App.css'; 
 
-{/* EU AINDA PRECISO: ENTENDER O FUNCIONAMENTO DESSE CÓDIGO DIREITO; FOCAR EM COMO ELE SE CONECTA COM O produtos.json,
-    EM COMO ELE FAZ PARA ADICIONAR OS PRODUTOS AO DB; MUDAR O NOME DAS VARIÁVEIS.
-    
-    Sobre o design: mudar os botões, mudas as labels e até as notificações. Em vez de as exibir no
-    próprio documento, poderia as exibir numa caixinha de notificação do toastify. Dar um destaque
-    para o nome da página.
-    
-    Sobre o projeto inteiro: ainda preciso adicionar o botão de finalizar a compra e inserir o valor pago
-    pelo cliente e mostrar o troco e, além disso, mudar os estilos dos elementos, tipo da tabela com
-    os produtos e, talvez, das notificações, se eu conseguir. Organizar as tecnologias usadas
-    e a descrição do objetivo do projeto. No mais, é isso.
-    
-    FOCO EM ENTENDER O FUNCIONAMENTO DE TUDO PARA PODER GRAVAR O VÍDEO, POR FAVOR! É AMANHÃ!!
-    PTVenda - ok - FaltandoBotaoFinalizarCompraEPedirMontantePagoeMostrarTroco
-    PTCadProd - ok - FaltandoEstilizarEColocarNotificações
-
-    Ainda preciso, também, organizar a página do GitHub
-
-    */}
-
-
-
-const AddProduct = () => {
+const AdicionarProdutoaoDB = () => {
   const [Produto, setProduto] = useState({
     id: '',
     nome: '',
@@ -36,16 +14,16 @@ const AddProduct = () => {
   const [Falha, setFalha] = useState('');
   const [Safe, setSafe] = useState('');
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
+  const ManipuladordeInteracao = (i) => {
+    const { name, value } = i.target;
     setProduto((prevProduct) => ({
       ...prevProduct,
       [name]: value
     }));
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const ManipuladorSubmissaoProduto = async (evento) => {
+    evento.preventDefault();
 
     // Convert preco to float and id to integer 
     const NovoProdutoParaODB = {
@@ -107,7 +85,7 @@ const AddProduct = () => {
       Cadastrar Produto
     </div>
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={ManipuladorSubmissaoProduto}>
         <div  className=' mb-3 text-center'>
           <label  style={{fontSize: '50px', textAlign: 'center', fontWeight: 'normal'}} htmlFor="id" > ID do Produto: </label>
           <input
@@ -115,7 +93,7 @@ const AddProduct = () => {
             id="id"
             name="id"
             value={Produto.id}
-            onChange={handleChange}
+            onChange={ManipuladordeInteracao}
             required
           />
         </div>
@@ -126,7 +104,7 @@ const AddProduct = () => {
             id="nome"
             name="nome"
             value={Produto.nome}
-            onChange={handleChange}
+            onChange={ManipuladordeInteracao}
             required
           />
         </div>
@@ -137,7 +115,7 @@ const AddProduct = () => {
             id="preco"
             name="preco"
             value={Produto.preco}
-            onChange={handleChange}
+            onChange={ManipuladordeInteracao}
             step="0.01"
             required
           />
@@ -149,7 +127,7 @@ const AddProduct = () => {
             id="imagem"
             name="imagem"
             value={Produto.imagem}
-            onChange={handleChange}
+            onChange={ManipuladordeInteracao}
             required
           />
         </div>
@@ -166,4 +144,4 @@ const AddProduct = () => {
 
 };
 
-export default AddProduct;
+export default AdicionarProdutoaoDB;

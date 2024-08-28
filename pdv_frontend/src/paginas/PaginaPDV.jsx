@@ -9,7 +9,7 @@ const PDV = () => {
     const [Venda, setVenda] = useState([]);
     const [ValorFinal, setValorFinal] = useState(0);
     const [Pagamento, setPagamento] = useState('');
-    const [Troco, setTroco] = useState(null); // Inicialize como null para controle condicional
+    const [Troco, setTroco] = useState(0); // Inicializando em zero para controle condicional
 
     const CapturandoProdutos = async() => {
         setEstaCarregando(true);
