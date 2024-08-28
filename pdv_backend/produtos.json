@@ -101,6 +101,24 @@
       "nome": "wwlddl",
       "preco": 8,
       "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRf2BUxTZjSKGUkWjZZEovhK8s1BtM_isG3jCgKw6JnJ732hcuZksuEBeoShoN0nHsyYPGsMVo_DXyYdD01TdGYwhKDwL8ThUPlvt7oA5Fc&usqp=CAE"
+    },
+    {
+      "id": 17,
+      "nome": "Vinagre de Álcool Sadio",
+      "preco": 1.69,
+      "imagem": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSsbQNaiSE3jYepFbONw8rCKqsZI6SQafIhNeto159PWrYAjGhYXrrs3StUmJ20JWbNdAJna5OVocd5Aru9KLHpPHGI1hhajGSwLyTeIqF-FQBPoTaIPCQG&usqp=CAE"
+    },
+    {
+      "id": 18,
+      "nome": "Sabonete Even Suave Pitanga E Acerola 85g",
+      "preco": 2,
+      "imagem": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRu-LbT_hIq8hirQ777LpThuUeH815w2BMWAcpi58p6WPhJe3Vl8aBa7u1RalQ4jIMhG5Nh3i-oi3tkrvJja8vi7boYsPp6MbzG59PQvdm4&usqp=CAE"
+    },
+    {
+      "id": 19,
+      "nome": "Pine azul",
+      "preco": 8.5,
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKOHyAsS2NextEvPxugtJO3VyZWdU9NTGN4A&s"
     }
   ]
 }

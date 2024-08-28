@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import LayoutPrincipal from '../layouts/LayoutPrincipal';
-
+import {toast} from 'react-toastify';
 
 {/* EU AINDA PRECISO: ENTENDER O FUNCIONAMENTO DESSE CÓDIGO DIREITO; FOCAR EM COMO ELE SE CONECTA COM O produtos.json,
     EM COMO ELE FAZ PARA ADICIONAR OS PRODUTOS AO DB; MUDAR O NOME DAS VARIÁVEIS.
@@ -26,18 +26,18 @@ import LayoutPrincipal from '../layouts/LayoutPrincipal';
 
 
 const AddProduct = () => {
-  const [product, setProduct] = useState({
+  const [Produto, setProduto] = useState({
     id: '',
     nome: '',
     preco: '',
     imagem: ''
   });
-  const [error, setError] = useState('');
-  const [success, setSuccess] = useState('');
+  const [Falha, setFalha] = useState('');
+  const [Safe, setSafe] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setProduct((prevProduct) => ({
+    setProduto((prevProduct) => ({
       ...prevProduct,
       [name]: value
     }));
@@ -46,98 +46,114 @@ const AddProduct = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Convert preco to float and id to integer
-    const newProduct = {
-      ...product,
-      preco: parseFloat(product.preco),
-      id: parseInt(product.id, 10)
+    // Convert preco to float and id to integer 
+    const NovoProdutoParaODB = {
+      ...Produto,
+      preco: parseFloat(Produto.preco),
+      id: parseInt(Produto.id, 10)
     };
 
     try {
       // Fetch existing products to check for ID duplication
-      const response = await axios.get('http://localhost:3000/Produtos');
-      const products = response.data;
+      const resposta = await axios.get('http://localhost:3000/Produtos');
+      const ProdutosDB = resposta.data;
       
       // Check if the ID already exists
-      const idExists = products.some(prod => prod.id === newProduct.id);
+      const IDjaexistenoDB = ProdutosDB.some(indice => indice.id === NovoProdutoParaODB.id);
       
-      if (idExists) {
-        setError(<h1 style={{fontSize: '50px', textAlign: 'center', fontWeight: 'bold'}}> ID já existe. Por favor, use um ID único. </h1>);
-        setSuccess(''); // Clear success message if there's an error
+      if (IDjaexistenoDB) {
+        setFalha(toast.error(`Você está tentando adicionar um produto com ID já existente no banco de dados! Por favor, adicione um ID ainda não utilizado.`, 
+          {
+            position: "top-center",
+            autoClose: 8000,
+          }
+        ))
+        setSafe(''); // Clear success message if there's an error
       } else {
         // Clear error if ID is unique
-        setError('');
+        setFalha('');
         
         // Add new product
-        await axios.post('http://localhost:3000/Produtos', newProduct);
-        setSuccess(<h1 style={{fontSize: '50px', textAlign: 'center', fontWeight: 'bold'}}> Produto adicionado com sucesso! </h1>);
-        setProduct({
+        await axios.post('http://localhost:3000/Produtos', NovoProdutoParaODB);
+        setSafe(toast.success(`Produto adicionado com sucesso! Parabéns, você acabou de adicionar um novo produto ao banco de dados.`, 
+          {
+            position: "top-center",
+            autoClose: 8000,
+          }
+        ))
+  
+        setProduto({
           id: '',
           nome: '',
           preco: '',
           imagem: ''
         });
       }
-    } catch (error) {
-      console.error('Houve um erro!', error);
-      setError('Houve um erro ao adicionar o produto.');
-      setSuccess(''); // Clear success message if there's an error
+    } catch (Falha) {
+      console.error('Houve um erro!', Falha);
+      setFalha('Houve um erro ao adicionar o produto.');
+      setSafe(''); // Clear success message if there's an error
     }
   };
 
   return (
     <LayoutPrincipal>
+    <div className=' mb-3 titulo-cadprodpagina' >
+      Cadastrar Produto
+    </div>
     <div>
-      <h1>Cadastrar Produto</h1>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="id">ID do Produto:</label>
+        <div  className=' mb-3 text-center'>
+          <label  style={{fontSize: '50px', textAlign: 'center', fontWeight: 'normal'}} htmlFor="id" > ID do Produto: </label>
           <input
             type="number"
             id="id"
             name="id"
-            value={product.id}
+            value={Produto.id}
             onChange={handleChange}
             required
           />
         </div>
-        <div>
-          <label htmlFor="nome">Nome do Produto:</label>
+        <div  className=' mb-3 text-center'>
+          <label style={{fontSize: '50px', textAlign: 'center', fontWeight: 'normal'}} htmlFor="nome">Nome do Produto: </label>
           <input
             type="text"
             id="nome"
             name="nome"
-            value={product.nome}
+            value={Produto.nome}
             onChange={handleChange}
             required
           />
         </div>
-        <div>
-          <label htmlFor="preco">Preço do Produto:</label>
+        <div  className=' mb-3 text-center'>
+          <label style={{fontSize: '50px', textAlign: 'center', fontWeight: 'normal'}} htmlFor="preco"> Preço do Produto: </label>
           <input
             type="number"
             id="preco"
             name="preco"
-            value={product.preco}
+            value={Produto.preco}
             onChange={handleChange}
             step="0.01"
             required
           />
         </div>
-        <div>
-          <label htmlFor="imagem">URL da Imagem:</label>
+        <div className=' mb-3 text-center'>
+          <label style={{fontSize: '50px', textAlign: 'center', fontWeight: 'normal'}} htmlFor="imagem">URL da Imagem: </label>
           <input
             type="text"
             id="imagem"
             name="imagem"
-            value={product.imagem}
+            value={Produto.imagem}
             onChange={handleChange}
             required
           />
         </div>
-        <button type="submit">Adicionar Produto</button>
-        {error && <p style={{ color: 'red' }}>{error}</p>}
-        {success && <p style={{ color: 'green' }}>{success}</p>}
+        <div className= 'text-center mb-3'>
+          <button className= 'btn btn-success btn-center btn-lg mb-4' style={{fontSize: '50px', textAlign: 'center', fontWeight: 'bold'}} > Adicionar produto </button>
+        </div>
+        
+        {Falha && <p style={{ color: 'red' }}>{Falha}</p>}
+        {Safe && <p style={{ color: 'green' }}>{Safe}</p>}
       </form>
     </div>
     </LayoutPrincipal>

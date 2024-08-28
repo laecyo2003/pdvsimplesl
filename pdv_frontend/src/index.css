@@ -49,3 +49,12 @@ code {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
+.titulo-cadprodpagina {
+  background-color: #fd8918; /* Cor para o background */
+  color: #232220; /* Cor para o texto */
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+  
+}
