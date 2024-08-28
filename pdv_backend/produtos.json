@@ -125,6 +125,18 @@
       "nome": "Caneta Bic",
       "preco": 2,
       "imagem": "https://brasilcopias.com.br/wp-content/uploads/2022/03/caneta-bic_1.jpg"
+    },
+    {
+      "id": 21,
+      "nome": "qqeeqe",
+      "preco": 20,
+      "imagem": "https://rck.imgix.net/gG7CYoAMOkS6w2RN8SgABQ/images/UpEW4ML2SkSETAaGAsu2XQ.jpeg?auto=compress&width=720"
+    },
+    {
+      "id": 22,
+      "nome": "Espumante",
+      "preco": 139,
+      "imagem": "https://www.vinhosevinhos.com/media/catalog/product/cache/c8681c74f2ad6e00a87f988c056011ef/c/a/casa_valduga_130_brut_copy.jpg"
     }
   ]
 }

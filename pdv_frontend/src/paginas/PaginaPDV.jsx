@@ -91,7 +91,7 @@ const PDV = () => {
 
 <LayoutPrincipal> 
     <div className='row'>
-        <div className='col-lg-8'>
+        <div className='col-sm-8'>
             {EstaCarregando ? 'Carregando' : <div className='row'>
                 {Produtos.map((Produtos, chave) =>
                 <div key={chave} className='col-sm-4'>
@@ -108,16 +108,18 @@ const PDV = () => {
         </div>
 
         <div className='col-lg-4'>
-            <div className='table-responsive bg-dark mb-2'> 
-                <table className='table table-responsive table-dark table-hover'> 
-                    <thead>
+            <div className='table-responsive bg-light mb-2'> 
+                <h2 className= 'px-2 text-dark' style={{fontSize:'50px',fontWeight:'bold'}}> Valor Final </h2>
+                <h2 className= 'px-2 text-dark' style={{fontSize:'50px',fontWeight:'bold'}}> {FormatarValorParaPTBR(ValorFinal)} </h2>
+                <table className='table table-responsive table-light table-hover'> 
+                    <thead >
                         <tr>
-                            <td> Código do produto </td>
-                            <td> Nome do produto </td>
-                            <td> Preço do produto </td>
-                            <td> Quantidade </td>
-                            <td> Valor Total </td>
-                            <td> Ação </td>
+                            <td style={{fontSize:'18px',fontWeight:'bold', textAlign:'center'}}> Código do produto </td>
+                            <td style={{fontSize:'18px',fontWeight:'bold', textAlign:'center'}}> Nome do produto </td>
+                            <td style={{fontSize:'18px',fontWeight:'bold', textAlign:'center'}}> Preço do produto </td>
+                            <td style={{fontSize:'18px',fontWeight:'bold', textAlign:'center'}}> Quantidade </td>
+                            <td style={{fontSize:'18px',fontWeight:'bold', textAlign:'center'}}> Valor Total </td>
+                            <td style={{fontSize:'18px',fontWeight:'bold', textAlign:'center'}}> Ação </td>
 
                             
                         </tr>
@@ -126,23 +128,24 @@ const PDV = () => {
                     <tbody>
                         { Venda.length > 0 ? Venda.map((ProdutoExibidonaVenda, chave1) => 
                         <tr key={chave1}>
-                            <td> {ProdutoExibidonaVenda.id} </td>
-                            <td> {ProdutoExibidonaVenda.nome} </td>
-                            <td> {FormatarValorParaPTBR(ProdutoExibidonaVenda.preco)} </td>
-                            <td> {ProdutoExibidonaVenda.Quantidade} </td>
-                            <td> {FormatarValorParaPTBR(ProdutoExibidonaVenda.ValorTotalDoProdutoNaVenda)} </td>
-                            <td>  
+                            <td style={{fontSize:'18px',fontWeight:'bold', textAlign:'center'}}> {ProdutoExibidonaVenda.id} </td>
+                            <td style={{fontSize:'18px',fontWeight:'bold', textAlign:'center'}}> {ProdutoExibidonaVenda.nome} </td>
+                            <td style={{fontSize:'18px',fontWeight:'bold', textAlign:'center'}}> {FormatarValorParaPTBR(ProdutoExibidonaVenda.preco)} </td>
+                            <td style={{fontSize:'18px',fontWeight:'bold', textAlign:'center'}} > {ProdutoExibidonaVenda.Quantidade} </td>
+                            <td style={{fontSize:'18px',fontWeight:'bold', textAlign:'center'}}> {FormatarValorParaPTBR(ProdutoExibidonaVenda.ValorTotalDoProdutoNaVenda)} </td>
+                            <td style={{fontSize:'18px',fontWeight:'bold', textAlign:'center'}}>  
                                 <button className='btn btn-danger btn-sm' onClick={() => RemoverProdutodaVenda(ProdutoExibidonaVenda)} > Remover produto </button>
                             </td>
                         </tr>)
 
                          
-                        : <h3 className= 'px-2 text-white' > Não há produtos na venda </h3>}
+                        : <h3 className= 'px-2 text-dark'> Não há produtos na venda </h3>}
                     </tbody>
                 </table>
-                <h2 className= 'px-2 text-white'> Valor Final </h2>
-                <h2 className= 'px-2 text-white'> {FormatarValorParaPTBR(ValorFinal)} </h2>
+                
+                
              </div>
+             
              {/*<button className='btn btn-success btn-lg mb-4' onClick={() => FinalizarCompra(ValorFinal) }> Finalizar Venda </button> */}
 
 

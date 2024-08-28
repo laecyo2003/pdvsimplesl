@@ -1,0 +1,31 @@
+/* src/App.css */
+.toast-falha {
+    width: 400px; /* Adjust width */
+    min-height: 100px; /* Adjust height */
+    background-color: #ff0015; /* Example background color for error */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .toast-falha-corpo {
+    font-size: 30px; /* Larger font size */
+    padding: 20px; /* More padding */
+    color: #ffffff; /* Example text color for error */
+  }
+
+/* src/App.css */
+.toast-safe {
+    width: 400px; /* Adjust width */
+    min-height: 100px; /* Adjust height */
+    background-color: #07ba0d; /* Example background color for error */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .toast-safe-corpo {
+    font-size: 30px; /* Larger font size */
+    padding: 20px; /* More padding */
+    color: #ffffff; /* Example text color for error */
+  }
+  
+  

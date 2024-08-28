@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import LayoutPrincipal from '../layouts/LayoutPrincipal';
 import {toast} from 'react-toastify';
+import '../App.css'; // Ensure this import is present
 
 {/* EU AINDA PRECISO: ENTENDER O FUNCIONAMENTO DESSE CÓDIGO DIREITO; FOCAR EM COMO ELE SE CONECTA COM O produtos.json,
     EM COMO ELE FAZ PARA ADICIONAR OS PRODUTOS AO DB; MUDAR O NOME DAS VARIÁVEIS.
@@ -64,8 +65,10 @@ const AddProduct = () => {
       if (IDjaexistenoDB) {
         setFalha(toast.error(`Você está tentando adicionar um produto com ID já existente no banco de dados! Por favor, adicione um ID ainda não utilizado.`, 
           {
-            position: "top-center",
+            position: "bottom-center",
             autoClose: 12000,
+            className: 'toast-falha',
+            bodyClassName: 'toast-falha-corpo',
           }
         ))
         setSafe(''); // Clear success message if there's an error
@@ -77,8 +80,10 @@ const AddProduct = () => {
         await axios.post('http://localhost:3000/Produtos', NovoProdutoParaODB);
         setSafe(toast.success(`Produto adicionado com sucesso! Parabéns, você acabou de adicionar um novo produto ao banco de dados.`, 
           {
-            position: "top-center",
+            position: "bottom-center",
             autoClose: 12000,
+            className: 'toast-safe',
+            bodyClassName: 'toast-safe-corpo',
           }
         ))
   
