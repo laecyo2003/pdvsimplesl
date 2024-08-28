@@ -1,68 +1,106 @@
 {
-    "Produtos": [
-    { 
-        "id": 0,
-        "nome": "Arroz São Joaquim",
-        "preco": 8.50,
-        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Arroz%20S%C3%A3o%20Joaquim.jpg?raw=true"
-    },
-
-    { 
-        "id": 1,
-        "nome": "Aveia integral em flocos Quaker",
-        "preco": 4.50,
-        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Aveia%20integral%20em%20flocos%20Quaker.jpg?raw=true"
-    },
-
+  "Produtos": [
     {
-        "id": 2,
-        "nome": "Achocolatado em pó Nescau",
-        "preco": 11.00,
-        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Achocolatado%20em%20p%C3%B3%20Nescau.jpg?raw=true"
+      "id": 0,
+      "nome": "Arroz São Joaquim",
+      "preco": 8.5,
+      "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Arroz%20S%C3%A3o%20Joaquim.jpg?raw=true"
     },
-
     {
-        "id": 3,
-        "nome": "Açucar refinado Dumel",
-        "preco": 5.50,
-        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/A%C3%A7ucar%20refinado%20Dumel.jpg?raw=true"
+      "id": 1,
+      "nome": "Aveia integral em flocos Quaker",
+      "preco": 4.5,
+      "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Aveia%20integral%20em%20flocos%20Quaker.jpg?raw=true"
     },
-
     {
-        "id": 4,
-        "nome": "Café Santa Clara",
-        "preco": 11.80,
-        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Caf%C3%A9%20Santa%20Clara.jpg?raw=true"
+      "id": 2,
+      "nome": "Achocolatado em pó Nescau",
+      "preco": 11,
+      "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Achocolatado%20em%20p%C3%B3%20Nescau.jpg?raw=true"
     },
-
     {
-        "id": 5,
-        "nome": "Farinha de milho flocada Flocão Nordestino",
-        "preco": 2.25,
-        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Farinha%20de%20milho%20flocada%20Floc%C3%A3o%20Nordestino.jpg?raw=true"
+      "id": 3,
+      "nome": "Açucar refinado Dumel",
+      "preco": 5.5,
+      "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/A%C3%A7ucar%20refinado%20Dumel.jpg?raw=true"
     },
-    
     {
-        "id": 6,
-        "nome": "Macarrão espaguete Vitarella",
-        "preco": 4.00,
-        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Macarr%C3%A3o%20espaguete%20Vitarella.jpg?raw=true"
+      "id": 4,
+      "nome": "Café Santa Clara",
+      "preco": 11.8,
+      "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Caf%C3%A9%20Santa%20Clara.jpg?raw=true"
     },
-
     {
-        "id": 7,
-        "nome": "Macarrão instantâneo Nissin Lámen",
-        "preco": 2.50,
-        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Macarr%C3%A3o%20instant%C3%A2neo%20Nissin%20L%C3%A1men%20.jpg?raw=true"
+      "id": 5,
+      "nome": "Farinha de milho flocada Flocão Nordestino",
+      "preco": 2.25,
+      "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Farinha%20de%20milho%20flocada%20Floc%C3%A3o%20Nordestino.jpg?raw=true"
     },
-    
     {
-        "id": 8,
-        "nome": "Amido de Milho Maizena",
-        "preco": 5.60,
-        "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Amido%20de%20Milho%20Maizena.jpg?raw=true"
+      "id": 6,
+      "nome": "Macarrão espaguete Vitarella",
+      "preco": 4,
+      "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Macarr%C3%A3o%20espaguete%20Vitarella.jpg?raw=true"
+    },
+    {
+      "id": 7,
+      "nome": "Macarrão instantâneo Nissin Lámen",
+      "preco": 2.5,
+      "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Macarr%C3%A3o%20instant%C3%A2neo%20Nissin%20L%C3%A1men%20.jpg?raw=true"
+    },
+    {
+      "id": 8,
+      "nome": "Amido de Milho Maizena",
+      "preco": 5.6,
+      "imagem": "https://github.com/laecyo2003/images-pdv/blob/main/pdv_imagens/Amido%20de%20Milho%20Maizena.jpg?raw=true"
+    },
+    {
+      "id": 9,
+      "nome": "Fiambre Kitut Lata 320g",
+      "preco": 9.99,
+      "imagem": "https://ibassets.com.br/ib.item.image.large/l-c8a44556659a4346a7320cce954b803a.jpeg"
+    },
+    {
+      "id": 10,
+      "nome": "Arroz Tio João Funghi 250g",
+      "preco": 8.99,
+      "imagem": "https://bretas.vtexassets.com/arquivos/ids/196292-800-auto?v=638375527870830000&width=800&height=auto&aspect=true"
+    },
+    {
+      "id": 11,
+      "nome": "aldadakd",
+      "preco": 1.2,
+      "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS3o1G8RWP1wBeVJHa857lmZqIWIjcYWAPDBR3Gt78amVRW7k0q1bZFSASkS7K2fygMBjzsZcag0dc-qrVaHPIb4cujxnHeVsARygWJ_xjHGUfKMT9kuWwd&usqp=CAE"
+    },
+    {
+      "id": 12,
+      "nome": "ldkadlek",
+      "preco": 4.4,
+      "imagem": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQa7lYuoJjwtHwr6sjj3A4J2xtvWOa0UwYPxp424uATLm-_jsVwUNqFNNTVCP8cvqt9E0eGu4msDLuvP3Kr1w_m8P10eZDDOA&usqp=CAE"
+    },
+    {
+      "id": 13,
+      "nome": "vinfehf",
+      "preco": 40,
+      "imagem": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT0pb3RuRXYBYA4Sin0XDzwh_wQKGe5DhdldNKBbSPacAX_7Gssz7x_UEFCYzi8XqfRRiWEXw-WatXNnhwdGRCGJUPV7y-BNTOXFzK25V1FFueS7iZKXUcwlg&usqp=CAE"
+    },
+    {
+      "id": 14,
+      "nome": "wdpwdk",
+      "preco": 20,
+      "imagem": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTT2RhYugmdiFNGM6H440kGKXmdFHzLRHZo21T5N756qJcb0K1tqXiFezwVAyXrz8D-QwBA9NFajxYerpIq6RSanP7eUDTySn_rw_MhsjIz69J0g8SNyjBRLos&usqp=CAE"
+    },
+    {
+      "id": 15,
+      "nome": "ewedjwldkjw",
+      "preco": 90,
+      "imagem": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRfQRTJu9V_04Xd4H285SVAQ9VcXzvU8wzNuO3cIjyXM1fSPv5S7Jdddwa41uTTCByAwegt_wWMFr68pmaR83kRU0DgnpJYPgy9PM4JOmMX5zN1-70Rfaqp&usqp=CAE"
+    },
+    {
+      "id": 16,
+      "nome": "wwlddl",
+      "preco": 8,
+      "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRf2BUxTZjSKGUkWjZZEovhK8s1BtM_isG3jCgKw6JnJ732hcuZksuEBeoShoN0nHsyYPGsMVo_DXyYdD01TdGYwhKDwL8ThUPlvt7oA5Fc&usqp=CAE"
     }
-
-    
-    ]
+  ]
 }

@@ -2,11 +2,18 @@ import React, { useEffect, useState } from 'react';
 import LayoutPrincipal from '../layouts/LayoutPrincipal';
 import axios from "axios"
 import {toast} from 'react-toastify';
+
+
+
 const PDV = () => {
     const [Produtos, setProdutos] = useState([]);
     const [EstaCarregando, setEstaCarregando] = useState(false);
     const [Venda, setVenda] = useState([]);
     const [ValorFinal, setValorFinal] = useState(0);
+    const [Pagamento, setPagamento] = useState('');
+    const [Troco, setTroco] = useState(0);
+
+
 
     const CapturandoProdutos = async() => {
         setEstaCarregando(true);
@@ -38,7 +45,7 @@ const PDV = () => {
             }
         });
         setVenda(NovaVenda);
-        toast(`${NovoProduto.nome} foi adicionado à venda`)
+        toast.success(`${NovoProduto.nome} foi adicionado à venda`);
 
 
 
@@ -49,7 +56,7 @@ const PDV = () => {
             'ValorTotalDoProdutoNaVenda': Produtos.preco
             }
             setVenda([...Venda, AdicionarProduto])
-            toast(`${Produtos.nome} foi adicionado à venda`)
+            toast.success(`${Produtos.nome} foi adicionado à venda`);
     } 
 
     }
@@ -57,7 +64,7 @@ const PDV = () => {
     const RemoverProdutodaVenda = async(Produtos) => {
         const NovaVendaRemoverProduto = Venda.filter(ProdutoNaVenda => ProdutoNaVenda.id !== Produtos.id);
         setVenda(NovaVendaRemoverProduto);
-
+        toast.warn(`${Produtos.nome} foi removido da venda`);
 
 
     }
@@ -101,7 +108,7 @@ const PDV = () => {
         </div>
 
         <div className='col-lg-4'>
-            <div className='table-responsive bg-dark'> 
+            <div className='table-responsive bg-dark mb-2'> 
                 <table className='table table-responsive table-dark table-hover'> 
                     <thead>
                         <tr>
@@ -117,7 +124,7 @@ const PDV = () => {
                     </thead>
                     
                     <tbody>
-                        { Venda ? Venda.map((ProdutoExibidonaVenda, chave1) => 
+                        { Venda.length > 0 ? Venda.map((ProdutoExibidonaVenda, chave1) => 
                         <tr key={chave1}>
                             <td> {ProdutoExibidonaVenda.id} </td>
                             <td> {ProdutoExibidonaVenda.nome} </td>
@@ -130,14 +137,13 @@ const PDV = () => {
                         </tr>)
 
                          
-                        : 'Não há produtos na venda'}
+                        : <h3 className= 'px-2 text-white' > Não há produtos na venda </h3>}
                     </tbody>
                 </table>
                 <h2 className= 'px-2 text-white'> Valor Final </h2>
                 <h2 className= 'px-2 text-white'> {FormatarValorParaPTBR(ValorFinal)} </h2>
-
              </div>
-
+             {/*<button className='btn btn-success btn-lg mb-4' onClick={() => FinalizarCompra(ValorFinal) }> Finalizar Venda </button> */}
 
 
         </div>

@@ -2,6 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+
 const LayoutPrincipal = ({children}) => {
     return (
         <div>
@@ -17,7 +19,19 @@ const LayoutPrincipal = ({children}) => {
                 <div className='conatiner mt-3'>
                     {children}
                 </div>
-                <ToastContainer/>
+            
+                <ToastContainer
+                    position="top-right"
+                    autoClose={2000}
+                    hideProgressBar={false}
+                    newestOnTop={false}
+                    closeOnClick
+                    rtl={false}
+                    pauseOnFocusLoss={false}
+                    draggable={false}
+                    pauseOnHover={true}
+                    theme="colored"
+                />
             </main>
         </div>
     );
