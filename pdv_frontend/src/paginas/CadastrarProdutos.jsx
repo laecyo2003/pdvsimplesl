@@ -18,6 +18,9 @@ import LayoutPrincipal from '../layouts/LayoutPrincipal';
     FOCO EM ENTENDER O FUNCIONAMENTO DE TUDO PARA PODER GRAVAR O VÍDEO, POR FAVOR! É AMANHÃ!!
     PTVenda - ok - FaltandoBotaoFinalizarCompraEPedirMontantePagoeMostrarTroco
     PTCadProd - ok - FaltandoEstilizarEColocarNotificações
+
+    Ainda preciso, também, organizar a página do GitHub
+
     */}
 
 
