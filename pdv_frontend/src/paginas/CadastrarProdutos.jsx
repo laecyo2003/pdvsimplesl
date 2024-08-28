@@ -16,6 +16,8 @@ import LayoutPrincipal from '../layouts/LayoutPrincipal';
     e a descrição do objetivo do projeto. No mais, é isso.
     
     FOCO EM ENTENDER O FUNCIONAMENTO DE TUDO PARA PODER GRAVAR O VÍDEO, POR FAVOR! É AMANHÃ!!
+    PTVenda - ok - FaltandoBotaoFinalizarCompraEPedirMontantePagoeMostrarTroco
+    PTCadProd - ok - FaltandoEstilizarEColocarNotificações
     */}
 
 
