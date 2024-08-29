@@ -11,6 +11,12 @@ const PDV = () => {
     const [Pagamento, setPagamento] = useState('');
     const [Troco, setTroco] = useState(0); // Inicializando em zero para controle condicional
 
+
+    /* Essa função vai "capturar" os produtos do backend. Usa o axios, que é um cliente
+    http para fazer requisições. Dessa forma, a partir da ação get, ele requisita os
+    produtos do banco de dados, "pegando"  o objeto-pai "Produtos" 
+    do arquivo produtos.json:
+    */
     const CapturandoProdutos = async() => {
         setEstaCarregando(true);
         const resultado = await axios.get('Produtos');
@@ -18,12 +24,20 @@ const PDV = () => {
         setEstaCarregando(false);
     }
 
+
+    /* Essa função vai adicionar um produto à venda. Para isso, ela recebe
+    o argumento produto e verifica:*/
     const AdicionarProdutoAVenda = async(produto) => {
-        // Checando se o produto adicionado à venda já existe
+    
         let EncontrarProdutoVenda = Venda.find(i => i.id === produto.id);
+        /* se o produto já existe na venda (que é uma lista criada com todos
+        os produtos da venda) a partir da verificação do id, caso o id seja encontrado,
+        a variável receberá um valor diferente de indefinido se o produto já existir  
+        na venda 
+        */
 
         if (EncontrarProdutoVenda) {
-            // Encontrando produtos na venda e modificando quantidades
+            // A variável NovaVenda é criada 
             let NovaVenda = Venda.map(ProdutoNaVenda => {
                 if (ProdutoNaVenda.id === produto.id) {
                     return {
@@ -65,9 +79,9 @@ const PDV = () => {
     }
 
     const FinalizarVenda = () => {
-        setVenda([]); // Limpar a lista de venda
-        setPagamento(''); // Limpar o campo de pagamento
-        setTroco(null); // Limpar o troco
+        setVenda([]);
+        setPagamento('');
+        setTroco(0); 
         toast.success(`Parabéns, você acabou de finalizar um venda!`,
             {position: "top-right",
             autoClose: 4000,
@@ -101,6 +115,7 @@ const PDV = () => {
                         {Produtos.map((produto, chave) =>
                             <div key={chave} className='col-sm-4'>
                                 <div className='border' onClick={() => AdicionarProdutoAVenda(produto)}>
+                                    {/* Mostra os produtos no grid: */}
                                     <p> {produto.nome} </p>
                                     <img src={produto.imagem} className="img-fluid" alt={produto.nome} />
                                     <p> {FormatarValorParaPTBR(produto.preco)} </p>

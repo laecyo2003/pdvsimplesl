@@ -143,6 +143,18 @@
       "nome": "Camisa 81 Flamengo",
       "preco": 139,
       "imagem": "https://www.retrogol.com.br/idolos-eternos/camisa-retro-flamengo-replica-mundial-81-zico-dry"
+    },
+    {
+      "id": 24,
+      "nome": "Pão Francês",
+      "preco": 2.64,
+      "imagem": "https://io.convertiez.com.br/m/trimais/shop/products/images/12097/medium/pao-frances-165g_10398.jpg"
+    },
+    {
+      "id": 25,
+      "nome": "Sardinha",
+      "preco": 5.59,
+      "imagem": "https://static.paodeacucar.com/img/uploads/1/658/18550658.png"
     }
   ]
 }

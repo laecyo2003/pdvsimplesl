@@ -22,10 +22,11 @@ const AdicionarProdutoaoDB = () => {
     }));
   };
 
-  const ManipuladorSubmissaoProduto = async (evento) => {
+
+  const ManipuladorSubmissaoProduto = async (evento) => { // Função assíncrona para que o formulário não seja enviado
     evento.preventDefault();
 
-    // Convert preco to float and id to integer 
+    // Converte a entrada preco para real e a entrada id para inteiro (utiliza a base 10 nesse caso)
     const NovoProdutoParaODB = {
       ...Produto,
       preco: parseFloat(Produto.preco),
@@ -33,14 +34,18 @@ const AdicionarProdutoaoDB = () => {
     };
 
     try {
-      // Fetch existing products to check for ID duplication
       const resposta = await axios.get('http://localhost:3000/Produtos');
       const ProdutosDB = resposta.data;
       
-      // Check if the ID already exists
-      const IDjaexistenoDB = ProdutosDB.some(indice => indice.id === NovoProdutoParaODB.id);
       
-      if (IDjaexistenoDB) {
+      const IDjaexistenoDB = ProdutosDB.some(indice => indice.id === NovoProdutoParaODB.id); /* Verifica se o id do produto
+      que está sendo cadastrado já existe no banco de dados, através da comparação com cada id de cada produto no banco de dados,
+      para isso, o método "some" é utilizado, pois ele retorna um valor verdadeiro caso a condição seja satisfeita pelo menos
+      uma vez e um valor falso casa ela não seja satisfeita. No 
+      
+      */
+      
+      if (IDjaexistenoDB) { // Se o id já existir, então uma notificação de erro, criada com react-toastify, será exibida: 
         setFalha(toast.error(`Você está tentando adicionar um produto com ID já existente no banco de dados! Por favor, adicione um ID ainda não utilizado.`, 
           {
             position: "bottom-center",
@@ -49,15 +54,14 @@ const AdicionarProdutoaoDB = () => {
             bodyClassName: 'toast-falha-corpo',
           }
         ))
-        setSafe(''); // Clear success message if there's an error
+        setSafe(''); 
       } else {
-        // Clear error if ID is unique
         setFalha('');
         
-        // Add new product
-        await axios.post('http://localhost:3000/Produtos', NovoProdutoParaODB);
+        // Do contrário, o Axios fará a função de post no banco de dados que contém os produtos
+        await axios.post('http://localhost:3000/Produtos', NovoProdutoParaODB); 
         setSafe(toast.success(`Produto adicionado com sucesso! Parabéns, você acabou de adicionar um novo produto ao banco de dados.`, 
-          {
+          { // Uma notificação de sucesso será exibida
             position: "bottom-center",
             autoClose: 12000,
             className: 'toast-safe',
@@ -75,7 +79,7 @@ const AdicionarProdutoaoDB = () => {
     } catch (Falha) {
       console.error('Houve um erro!', Falha);
       setFalha('Houve um erro ao adicionar o produto.');
-      setSafe(''); // Clear success message if there's an error
+      setSafe('');
     }
   };
 
