@@ -19,12 +19,13 @@
             como projeto final referente à disciplina de Lógica de Programação - (LOP) - ECT3104 da Escola de Ciências e Tecnologia (ECT) da Universidade 
             Federal do Rio Grande do Norte (UFRN), ministrada pelo Professor ORIVALDO VIEIRA DE SANTANA JUNIOR, no período letivo 2024.1.
         </p>
-    
     <h3>
         UMA VISÃO DO PANDSHIPDV PARA O USUÁRIO FINAL
     </h3>
         <p>
-            O projeto consiste numa aplicação web completa voltada a microempreendedores donos de pequenos negócios locais do ramo de comércio como padarias, mercados, conveniências, mercearias de bairro etc. A aplicação se trata de um Sistema de Ponto De Venda (PDV), que visa a disponibilizar a esses empreendedores as seguintes funcionalidades:
+            O projeto consiste numa aplicação web completa voltada a microempreendedores donos de pequenos negócios locais do ramo de comércio como padarias, mercados, 
+            conveniências, mercearias de bairro etc. A aplicação se trata de um Sistema de Ponto De Venda (PDV), que visa a disponibilizar a esses empreendedores as
+            seguintes funcionalidades:
             <ul>
                 <li>
                     <h4> Realizar vendas </h4>
@@ -36,8 +37,7 @@
                             <li> visualização do troco que deve ser devolvido ao cliente ao final da compra. </li>
                         </ul>
                 </li>
-            </ul>
-            
+            </ul>   
             <ul>
                 <li>
                     <h4> Cadastrar produtos </h4>
@@ -49,13 +49,7 @@
                         </ul>
                 </li>
             </ul>
-    
-    
-    
-
         </p>
-
-
     <h3> 
         ARQUITETURA DO PROJETO
     </h3>
@@ -64,5 +58,3 @@
             utilizada a biblioteca REACTJS, ao passo que, para o Backend, foi utilizado o JSON-SERVER.
         </p>
 </div>
-  
-  
