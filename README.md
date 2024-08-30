@@ -2,7 +2,7 @@
     <h1> 
       PANDSHIPDV  - SISTEMA DE PDV SIMPLES PARA PEQUENOS NEGÓCIOS
     </h1>
-    <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width=400px height=400px>
+    <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width=300px height=300px>
     <p>
       <em> 
         Logo inicial do projeto
@@ -54,9 +54,42 @@
         ARQUITETURA DO PROJETO
     </h2>
         <p>
-            O PANDSHIPDV é uma aplicação web completa, ou seja, é composta de Backend e Frontend. Para a construção do frontend da aplicação foi
-            utilizada a biblioteca REACTJS, ao passo que, para o Backend, foi utilizado o JSON-SERVER.
-            O PANDSHIPDV é uma aplicação web completa, ou seja, é composta de Backend e Frontend. Para a construção do frontend da aplicação foi utilizada a biblioteca
-            REACTJS, ao passo que, para o Backend, foi utilizado o JSON-SERVER. 
+            O PANDSHIPDV é uma aplicação web completa, ou seja, é composta de Backend e Frontend. Para a construção do frontend da aplicação foi utilizada a biblioteca REACTJS, 
+            ao passo que, para o Backend, foi utilizado o JSON-SERVER. Em termos de Frontend, a aplicação possui, nesta versão inicial, apenas 3 (três) páginas:
+            <ul>
+                <li>
+                    <h4> Página inicial </h4>
+                        <ul>
+                            <li> navbar (barra de navegação); </li>
+                            <li> título da página; </li>
+                            <li> botão para redirecionamento à Página de vendas; </li>
+                            <li> botão para redirecionamento à Página de cadastro de produtos. </li>
+                        </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4> Página de vendas </h4>
+                        <ul>
+                            <li> tabela com os produtos; </li>
+                            <li> tabela com as informações da venda; </li>
+                            <li> label/input para inserção do valor pago pelo cliente; </li>
+                            <li> botão para calcular o troco da venda </li>
+                            <li> botão para finalizar a venda iniciar uma nova. </li>
+                        </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h4> Página de cadastro de produtos </h4>
+                        <ul>
+                            <li> título da página </li>
+                            <li> label/input para a inserção do ID do produto; </li>
+                            <li> label/input para a inserção do nome do produto; </li>
+                            <li> label/input para a inserção do preço do produto; </li>
+                            <li> label/input para a inserção da URL para a imagem do produto; </li>
+                        </ul>
+                </li>
+            </ul>
         </p>
 </div>
