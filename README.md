@@ -91,8 +91,10 @@
                         </ul>
                 </li>
             </ul>
-    Já em termos de Backend, a aplicação foi estruturada sobre um servidor local baseado em um arquivo "db.json" Esse arquivo é "consumido" pela 
-    <a href="https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces"> API </a> (Interface de Programação de Aplicações) 
-    de padrão <a href="https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api"> REST </a> (Transferência de Estado Representacional)...
+    Já em termos de Backend, a aplicação foi estruturada sobre um servidor local baseado em um arquivo "db.json". Esse arquivo é "consumido" pela 
+    <a href="https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces">API</a> (Interface de Programação de Aplicações) 
+    de padrão <a href="https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api">REST</a>(Transferência de Estado Representacional) gerada pelo pacote 
+    <a href=https://github.com/typicode/json-server/> JSON SERVER </a>
+    
         </p>
 </div>
