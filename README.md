@@ -21,7 +21,7 @@
   </p>
   
   <h3>
-    DO QUE SE TRATA O PANDSHIPDV (Para o usuário final)?
+    UMA VISÃO O PANDSHIPDV PARA O USUÁRIO FINAL
   </h3>
   <p>
     O projeto consiste numa aplicação web completa voltada a Microempreendedores donos de pequenos negócios locais do ramo de comércio como padarias, mercados, conveniências, mercearias de bairro etc. A aplicação se trata de um Sistema de Ponto De Venda (PDV), que visa a disponibilizar a esses empreendedores as seguintes funcionalidades:
