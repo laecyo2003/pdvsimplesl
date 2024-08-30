@@ -25,33 +25,14 @@
   </h3>
   <p>
     O projeto consiste numa aplicação web completa voltada a Microempreendedores donos de pequenos negócios locais do ramo de comércio como padarias, mercados, conveniências, mercearias de bairro etc. A aplicação se trata de um Sistema de Ponto De Venda (PDV), que visa a disponibilizar a esses empreendedores as seguintes funcionalidades:
-    <li>
-      Acesso aos produtos cadastrados em um banco de dados para realizar vendas, de maneira descomplicada, simplesmente clicando sobre o produto e o adicionando a uma venda;
-    </li>
-    <li>
-        Cálculo do valor final de uma venda, com base nos produtos adicionados a ela;
-    </li>
-    <li>
-      Inserção do valor pago pelo cliente em relação à venda;
-    </li>
-    <li>
-      Cálculo do troco de uma venda;
-    </li>
+<ul>
+  <li>
+    <h4 > Frontend </h4>
     <ul>
-      Cadastro de produtos em um banco de dados, incluindo os seguintes dados:
-      <li>
-        ID do produto;
-      </li>
-      <li>
-        Nome do produto;
-      </li>
-      <li>
-        Preço do produto;
-      </li>
-      <li>
-        URL para a imagem do produto;
-      </li>
+      <li> Bootstrap; </li>
+      <li> NPM; </li>
+      <li> React. </li>
     </ul>
+  </li>
+</ul>
 
-  </p>
-</div>
