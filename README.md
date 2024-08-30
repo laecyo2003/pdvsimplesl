@@ -1,8 +1,13 @@
 <div align="center">
   <h1> 
-    PDV SIMPLES PARA PEQUENOS NEGÓCIOS  
+    PANDSHIPDV  - SISTEMA DE PDV SIMPLES PARA PEQUENOS NEGÓCIOS
   </h1>
   <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width=600px height=600px>
+  <p>
+    <em> 
+      Logo inicial do projeto
+    </em>
+  </p>
 </div>
 
 <h3>
@@ -11,6 +16,6 @@
   Federal do Rio Grande do Norte (UFRN), ministrada pelo Professor ORIVALDO VIEIRA DE SANTANA JUNIOR, no período letivo 2024.1.
 </h3>
 
-<p1>
+<p>
   O projeto consiste numa aplicação web completa (com frontend e backend) baseada em React
-</p1>
+</p>
