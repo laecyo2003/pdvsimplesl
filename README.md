@@ -1,6 +1,8 @@
 <h1> 
   PDV SIMPLES PARA PEQUENOS NEGÓCIOS  
-<h1/>
+</h1>
+
+
   
 <p1>
   Este repositório tem como intuito armazenar o projeto PDV SIMPLES PARA PEQUENOS NEGÓCIOS, o qual foi apresentado pelo aluno Láecyo Miguel Albino Lopes
