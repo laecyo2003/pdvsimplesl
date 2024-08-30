@@ -2,7 +2,7 @@
   <h1 style="background-color:red;"> 
     PDV SIMPLES PARA PEQUENOS NEGÓCIOS  
   </h1>
-  <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial da aplicação"     style="width:600px;height:600px;">
+  <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/PandshiPDV.png?raw=true" alt="Girl in a jacket"     style="width:600px;height:600px;">
 </div>
 
 <h3>
