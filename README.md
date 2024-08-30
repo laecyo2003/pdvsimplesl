@@ -1,5 +1,5 @@
 <div>
-  <h1 style="font-size:30px">  PDV SIMPLES PARA PEQUENOS NEGÓCIOS  <h1/>
+  <h1 style="font-size:300px">  PDV SIMPLES PARA PEQUENOS NEGÓCIOS  <h1/>
 
 </div>
 <p1>Estou aprendendo a utilizar essas ferramentas...</p1><br>
