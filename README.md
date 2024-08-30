@@ -1,5 +1,5 @@
 <div>
-  <h1> 
+  <h1 style="background-color:DodgerBlue;"> 
     PDV SIMPLES PARA PEQUENOS NEGÓCIOS  
   </h1>
   <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial da aplicação"     style="width:600px;height:600px;">
