@@ -1,5 +1,6 @@
 <div>
-  <img src=>
+  <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial da aplicação">
+  
   <h1> 
     PDV SIMPLES PARA PEQUENOS NEGÓCIOS  
   </h1>
