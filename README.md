@@ -37,6 +37,21 @@
     <li>
       Cálculo do troco de uma venda;
     </li>
+    <ul>
+      Cadastro de produtos em um banco de dados, incluindo os seguintes dados:
+      <li>
+        ID do produto;
+      </li>
+      <li>
+        Nome do produto;
+      </li>
+      <li>
+        Preço do produto;
+      </li>
+      <li>
+        URL para a imagem do produto;
+      </li>
+    </ul>
 
   </p>
 </div>
