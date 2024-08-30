@@ -12,7 +12,7 @@
 
 <div align="justify">
   <h3>
-    Objetivo
+    FINALIDADE DO REPOSITÓRIO
   </h3>
   <p>
     Este repositório tem como intuito armazenar o projeto PDV SIMPLES PARA PEQUENOS NEGÓCIOS, o qual foi apresentado pelo aluno Láecyo Miguel Albino Lopes
@@ -21,7 +21,7 @@
   </p>
   
   <h3>
-    Sobre a finalidade do projeto
+    DO QUE SE TRATA O PANDSHIPDV?
   </h3>
   <p>
     O projeto consiste numa aplicação web completa, com frontend e backend
