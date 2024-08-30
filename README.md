@@ -1,5 +1,5 @@
-<div color🔶>
-  <h1 color⚫>  PDV SIMPLES PARA PEQUENOS NEGÓCIOS  <h1/>
+<div color:orange>
+  <h1 color:black>  PDV SIMPLES PARA PEQUENOS NEGÓCIOS  <h1/>
 
 </div>
 <p1>Estou aprendendo a utilizar essas ferramentas...</p1><br>
