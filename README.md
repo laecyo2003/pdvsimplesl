@@ -1,8 +1,8 @@
 <div>
-  <h1 style="background-color:red;"> 
+  <h1> 
     PDV SIMPLES PARA PEQUENOS NEGÓCIOS  
   </h1>
-  <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width=600px height=600px">
+  <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width=600px height=600px class="center">
 </div>
 
 <h3>
