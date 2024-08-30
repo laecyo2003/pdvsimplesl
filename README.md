@@ -1,7 +1,7 @@
-<h1 align="center"> 
-    PANDSHIPDV  - SISTEMA DE PDV SIMPLES PARA PEQUENOS NEGÓCIOS
-</h1>
-<div align="center"> 
+<div align="center">
+    <h1> 
+      PANDSHIPDV  - SISTEMA DE PDV SIMPLES PARA PEQUENOS NEGÓCIOS
+    </h1>
     <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width=400px height=400px>
     <p>
       <em> 
@@ -9,16 +9,19 @@
       </em>
     </p>
 </div>
-
-<h2> FINALIDADE DO REPOSITÓRIO </h2>
-    <p>
+  
+<div align="justify">
+    <h2>
+        FINALIDADE DO REPOSITÓRIO
+    </h2>
+        <p>
             Este repositório tem como intuito armazenar o projeto PDV SIMPLES PARA PEQUENOS NEGÓCIOS, o qual foi apresentado pelo aluno Láecyo Miguel Albino Lopes
             como projeto final referente à disciplina de Lógica de Programação - (LOP) - ECT3104 da Escola de Ciências e Tecnologia (ECT) da Universidade 
             Federal do Rio Grande do Norte (UFRN), ministrada pelo Professor ORIVALDO VIEIRA DE SANTANA JUNIOR, no período letivo 2024.1.
         </p>
-    <h3>
+    <h2>
         UMA VISÃO DO PANDSHIPDV PARA O USUÁRIO FINAL
-    </h3>
+    </h2>
         <p>
             O projeto consiste numa aplicação web completa voltada a microempreendedores donos de pequenos negócios locais do ramo de comércio como padarias, mercados, 
             conveniências, mercearias de bairro etc. A aplicação se trata de um Sistema de Ponto De Venda (PDV), que visa a disponibilizar a esses empreendedores as
@@ -47,10 +50,13 @@
                 </li>
             </ul>
         </p>
-    <h3> 
+    <h2> 
         ARQUITETURA DO PROJETO
-    </h3>
+    </h2>
         <p>
+            O PANDSHIPDV é uma aplicação web completa, ou seja, é composta de Backend e Frontend. Para a construção do frontend da aplicação foi
+            utilizada a biblioteca REACTJS, ao passo que, para o Backend, foi utilizado o JSON-SERVER.
             O PANDSHIPDV é uma aplicação web completa, ou seja, é composta de Backend e Frontend. Para a construção do frontend da aplicação foi utilizada a biblioteca
             REACTJS, ao passo que, para o Backend, foi utilizado o JSON-SERVER. 
         </p>
+</div>
