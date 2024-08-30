@@ -9,8 +9,6 @@
       </em>
     </p>
 </div>
-  
-<div align="justify">
     <h3>
         FINALIDADE DO REPOSITÓRIO
     </h3>
@@ -57,4 +55,3 @@
             O PANDSHIPDV é uma aplicação web completa, ou seja, é composta de Backend e Frontend. Para a construção do frontend da aplicação foi utilizada a biblioteca
             REACTJS, ao passo que, para o Backend, foi utilizado o JSON-SERVER. 
         </p>
-</div>
