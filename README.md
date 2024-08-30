@@ -1,7 +1,7 @@
 <h1 align="center"> 
     PANDSHIPDV  - SISTEMA DE PDV SIMPLES PARA PEQUENOS NEGÓCIOS
 </h1>
-    <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width=400px height=400px>
+    <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width=400px height=400px align="center">
     <p>
       <em> 
         Logo inicial do projeto
