@@ -54,7 +54,7 @@
         ARQUITETURA DO PROJETO
     </h3>
         <p>
-            O PANDSHIPDV é uma aplicação web completa, ou seja, é composta de Backend e Frontend. Para a construção do frontend da aplicação foi
-            utilizada a biblioteca REACTJS, ao passo que, para o Backend, foi utilizado o JSON-SERVER.
+            O PANDSHIPDV é uma aplicação web completa, ou seja, é composta de Backend e Frontend. Para a construção do frontend da aplicação foi utilizada a biblioteca
+            REACTJS, ao passo que, para o Backend, foi utilizado o JSON-SERVER. 
         </p>
 </div>
