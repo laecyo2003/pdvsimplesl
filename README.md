@@ -137,16 +137,16 @@
         </p>
             <ul>
                 <li>
-                    <li> git; </li>
-                    <li> node; </li>
-                    <li> npm; </li>
+                    <li> git </li>
+                    <li> node </li>
+                    <li> npm </li>
                         <ul> 
+                             <li> axios </li>
                             <li> json-server </li>
                             <li> react-toastify </li>
                         </ul>
                 </li>
             </ul>
-        
 </div>
 
    
