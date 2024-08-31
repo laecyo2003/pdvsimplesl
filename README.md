@@ -53,6 +53,7 @@
     <h2>
     INTERFACE INICIAL DO PROJETO
     </h2>
+    <div align="center"> 
         <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_inicial_PandshiPDV.png?raw=true"
             alt="Tela inicial da aplicação" width="240px" height="135px"/>
     <p>
@@ -60,7 +61,8 @@
         Tela inicial da aplicação
       </em>
     </p>
-    <h2> 
+    </div>
+    <h2>
         ARQUITETURA DO PROJETO
     </h2>
         <p>
