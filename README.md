@@ -98,7 +98,7 @@
     <a href=https://github.com/typicode/json-server/> JSON SERVER </a>, o qual é responsável por simular um sistema de banco de dados através 
     da disponibilização das acões do CRUD (criar, ler, atualizar, deletar). Embora esse pacote seja voltado para ser dispnibilizado ao usuário final, pois
     foi desenvolvido para desenvolvedores que precisem testar suas aplicações, ele foi utilizado no projeto justamente por se tratar de uma versão inicial,
-    uma versão de testes. 
+    uma versão de testes. <br>
     A comunicação entre o banco de dados (o Backend) e as Páginas de vendas e de cadastro de produtos (o frontend) é realizada pelo
     pelo pacote do NPM para o NODEjs <a href="https://github.com/axios/axios"> Axios </a>, que é um servidor-cliente HTTP baseado em promessas tanto para
     navegadores quanto para o Nodejs  
