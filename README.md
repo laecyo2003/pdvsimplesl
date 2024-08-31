@@ -2,7 +2,7 @@
     <h1> 
       PANDSHIPDV  - SISTEMA DE PDV SIMPLES PARA PEQUENOS NEGÓCIOS
     </h1>
-    <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_frontend/public/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width="1024px" height="1024px"/>
+    <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_frontend/public/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width="350px" height="350px"/>
     <p>
       <em> 
         Logo inicial do projeto
@@ -55,7 +55,7 @@
     </h2>
     <div align="center"> 
         <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_inicial_PandshiPDV.png?raw=true"
-            alt="Tela inicial da aplicação" width="1920px" height="1080px"/>
+            alt="Tela inicial da aplicação" width="480px" height="270px"/>
     <p>
       <em> 
         Tela inicial da aplicação
