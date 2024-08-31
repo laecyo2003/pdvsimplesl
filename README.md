@@ -65,12 +65,6 @@
         Tela de vendas da aplicação - notificação - finalização da venda
       </em>
     </p>
-        <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_vendas_remocao_produtoPandshiPDV.png?raw=true" alt="Tela de vendas da aplicação - produto removido da venda" width="960px" height="540px"/>
-    <p>
-      <em> 
-        Tela de vendas da aplicação - notificação - produto removido da venda
-      </em>
-    </p>
         <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_cadastrar_produtos_PandshiPDV.png?raw=true" alt="Tela de cadastro de produtos da aplicação" width="960px" height="540px"/>
     <p>
       <em> 
