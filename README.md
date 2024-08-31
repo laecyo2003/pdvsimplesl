@@ -145,6 +145,7 @@
                                 <li> react-toastify </li>
                             </ul>
                 </ul>
+    </p>  
             Com os pacotes instalados, basta clonar este repositório, através do seguinte comando:
             ```shell
             git clone https://github.com/laecyo2003/pdvsimplesl.git
@@ -170,7 +171,6 @@
             ```shell
              json-server --watch produtos.json --port 5000 # Ou a porta de sua escolha
             ```
-    </p>
 </div>
 
    
