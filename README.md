@@ -2,7 +2,7 @@
     <h1> 
       PANDSHIPDV  - SISTEMA DE PDV SIMPLES PARA PEQUENOS NEGÓCIOS
     </h1>
-    <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width="350px" height="350px"/>
+    <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_frontend/public/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width="350px" height="350px"/>
     <p>
       <em> 
         Logo inicial do projeto
@@ -54,8 +54,9 @@
         ARQUITETURA DO PROJETO
     </h2>
         <p>
-            O PANDSHIPDV é uma aplicação web completa, ou seja, é composta de Backend e Frontend. Para a construção do frontend da aplicação foi utilizada a biblioteca REACTJS, 
-            ao passo que, para o Backend, foi utilizado o JSON-SERVER. Em termos de Frontend, a aplicação possui, nesta versão inicial, apenas 3 (três) páginas
+            O PANDSHIPDV é uma aplicação web completa, ou seja, é composta de Backend e Frontend. Para a construção do frontend da aplicação foi
+            utilizada a biblioteca REACTJS, ao passo que, para o Backend, foi utilizado o JSON-SERVER. Em termos de Frontend, a aplicação possui, nesta
+            versão inicial, apenas 3 (três) páginas
             <ul>
                 <li>
                     <h4> Página inicial </h4>
@@ -92,9 +93,9 @@
                         </ul>
                 </li>
             </ul>
-    Para a construção das tabelas de exibição dos produtos e das informaçoes da venda, foi utilizado o Framework Frontend <a> Bootstrap </a>, que é
-    responsável pela exibição de tabelas responsivas a partir da passagem de marcações CSS. Além disso, as notificações exibidas quando as seguintes
-    ações são realizadas:
+    Para a construção das tabelas de exibição dos produtos e das informaçoes da venda foi utilizado o Framework Frontend
+    <a href="https://getbootstrap.com"/> Bootstrap </a>,que é responsável pela exibição de tabelas responsivas a partir da passagem de 
+    marcações CSS, incluindo parâmetros do próprio Bootstrap. Além disso, as notificações exibidas quando as seguintes ações são realizadas:
             <ul>
                 <li>
                     <h4> Na Página de vendas </h4>
@@ -114,6 +115,7 @@
                         </ul>
                 </li>
             </ul>
+    foram introduzidas à aplicação através do pacote do NPM para o NODEjs <a href="https://www.npmjs.com/package/react-toastify"> React-Toastify </a>.
     <br>
     Já em termos de Backend, a aplicação foi estruturada sobre um servidor local baseado em um arquivo "db.json". Esse arquivo é "consumido" pela 
     <a href="https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces">API</a> (Interface de Programação de Aplicações) 
@@ -128,6 +130,51 @@
     navegadores quanto para o Nodejs, ele é quem faz as requisições ao banco de dados, possibilitando, na Página de Vendas, a exibição dos produtos, a partir
     da ação de Ler (CRUD) e, na Página de cadastro de Produtos, as ações de criar e atualizar (CRUD).
         </p>
+    <h2>
+        REPRODUZINDO O PROJETO
+    </h2>
+        <p>
+            Para reproduzir o projeto é necessário possuir os seguintes pacotes e subpacotes instalados: 
+                <ul>
+                        <li> git </li>
+                        <li> node </li>
+                        <li> npm </li>
+                            <ul> 
+                                 <li> axios </li>
+                                <li> json-server </li>
+                                <li> react-toastify </li>
+                            </ul>
+                </ul>
+    </p>  
 </div>
 
-   
+Com os pacotes instalados, basta clonar este repositório, através do seguinte comando:
+```shell
+git clone https://github.com/laecyo2003/pdvsimplesl.git
+```
+navegar até o diretório em que o repositório foi clonado, por exemplo, Downloads, através do comando:
+```shell
+cd /home/seu_usuario/Downloads/pdvsimplesl
+```
+abrir um editor de texto no local, por exemplo, o Visual Studio code, através do comando:
+```shell
+code .
+```
+navegar até o diretório em que o repositório foi clonado, por exemplo, Downloads:
+```shell
+cd /home/seu_usuario/Downloads/pdvsimplesl
+```
+para abrir a aplicação React na localhost, por padrão, na porta http://localhost:3000, basta acessar o diretório pdv_frontend a partir de
+um terminal e inserir o seguinte comando:
+```shell
+npm start 
+```
+é preciso, também, iniciar o servidor local json-server na localhost, por exemplo, na porta http://localhost:5000, através do comando:
+```shell
+json-server --watch produtos.json --port 5000 # Ou a porta de sua escolha
+```
+
+Por fim, o PANDSHIPDV estará rodando na máquina local. Este projeto está na versão `v0.0.1-alpha`, o que implica dizer que ele não está pronto para ser 
+lançado ao público, portanto, o trabalho nele continurá, o objetivo das próximas versões é implementar uma arquitetura que permita subir o projeto para
+internet de fato. Em uma versão totalmente madura da aplicação, o intuito é ser além de um PDV simples, mas todo um
+sistema de gerenciamento de recursos (ERP) para pequenas empresas. Atualizações virão em breve... 
