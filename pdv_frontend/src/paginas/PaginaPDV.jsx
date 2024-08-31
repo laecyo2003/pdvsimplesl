@@ -99,7 +99,7 @@ const PDV = () => {
     }, []);
 
     useEffect(() => {
-        let NovoValorFinal = Venda.reduce((acc, item) => acc + item.ValorTotalDoProdutoNaVenda, 0);
+        let NovoValorFinal = Venda.reduce((acmd, item) => acmd + item.ValorTotalDoProdutoNaVenda, 0);
         setValorFinal(NovoValorFinal);
     }, [Venda]);
 

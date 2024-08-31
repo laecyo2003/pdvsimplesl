@@ -12,7 +12,7 @@ const LayoutPrincipal = ({children}) => {
                     <nav className="navbar navbar-light barra-navegacao">
                         <div className="container">
                             <Link to="/" className="navbar-brand"> PANDSHIPDV 
-                            <img src="pdv_imagens/PandshiPDV.png" alt="Logo Inicial do projeto" width="70px" height="70px"/>
+                            <img src="pdv_imagens/PandshiPDV.png" alt="Logo Inicial do projeto" width="68px" height="68px"/>
                             </Link>
                         </div>
                     </nav>

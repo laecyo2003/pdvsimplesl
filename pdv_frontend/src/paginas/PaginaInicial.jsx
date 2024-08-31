@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import LayoutPrincipal from '../layouts/LayoutPrincipal';
-//import AplicacaoLogo from '../pdv_imagens/PandshiPDV.png';
 
 const PaginaInicial = () => {
     return (

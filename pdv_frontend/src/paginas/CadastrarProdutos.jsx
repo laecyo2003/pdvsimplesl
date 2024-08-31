@@ -41,7 +41,7 @@ const AdicionarProdutoaoDB = () => {
       const IDjaexistenoDB = ProdutosDB.some(indice => indice.id === NovoProdutoParaODB.id); /* Verifica se o id do produto
       que está sendo cadastrado já existe no banco de dados, através da comparação com cada id de cada produto no banco de dados,
       para isso, o método "some" é utilizado, pois ele retorna um valor verdadeiro caso a condição seja satisfeita pelo menos
-      uma vez e um valor falso casa ela não seja satisfeita. No 
+      uma vez e um valor falso casa ela não seja satisfeita.
       
       */
       
