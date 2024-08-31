@@ -1,7 +1,3 @@
-```shell
-npm install json-server
-```
-
 <div align="center">
     <h1> 
       PANDSHIPDV  - SISTEMA DE PDV SIMPLES PARA PEQUENOS NEGÓCIOS
