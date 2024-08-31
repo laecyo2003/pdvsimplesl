@@ -155,6 +155,12 @@
       "nome": "Sardinha",
       "preco": 5.59,
       "imagem": "https://static.paodeacucar.com/img/uploads/1/658/18550658.png"
+    },
+    {
+      "id": 26,
+      "nome": "Cereal Nestlé Nescau 210g",
+      "preco": 10.59,
+      "imagem": "https://ibassets.com.br/ib.item.image.large/l-f953eb4d2da049ff86465ce06bdb074e.jpeg"
     }
   ]
 }
