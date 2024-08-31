@@ -94,6 +94,9 @@
     Já em termos de Backend, a aplicação foi estruturada sobre um servidor local baseado em um arquivo "db.json". Esse arquivo é "consumido" pela 
     <a href="https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces">API</a> (Interface de Programação de Aplicações) 
     de padrão <a href="https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api"> REST </a> (Transferência de Estado Representacional) gerada pelo pacote 
-    do <a href="https://www.npmjs.com/"> NPM para o </a> NODEJS <a href=https://github.com/typicode/json-server/> JSON SERVER </a> 
+    do <a href="https://www.npmjs.com/"> NPM para o </a> NODEJS <a href=https://github.com/typicode/json-server/> JSON SERVER </a>, o qual é responsável por
+    simular um sistema de banco de dados através da disponibilização das acões do o CRUD (criar, ler, atualizar, deletar). Esse pacote é voltado para um
+    ambiente de testes, não é foi criado para ser utilizado pelo usuário final, mas com o intuito de auxiliar desenvolvedores nos testes de suas aplicações
+    que demandem um serviço de banco de dados.
         </p>
 </div>
