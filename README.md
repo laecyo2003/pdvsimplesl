@@ -171,9 +171,9 @@
             ```shell
              json-server --watch produtos.json --port 5000 # Ou a porta de sua escolha
             ```
+
+</div>
             ```shell
             npm install json-server
             ```
-</div>
-
    
