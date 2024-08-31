@@ -173,7 +173,9 @@ npm start
 ```shell
 json-server --watch produtos.json --port 5000 # Ou a porta de sua escolha
 ```
-Por fim, o PANDSHIPDV estará rodando na máquina local. Este projeto está na versão `v.0.0.1-alpha`, o que implica dizer que ele não está pronto para ser 
+<div align="justify">
+Por fim, o PANDSHIPDV estará rodando na máquina local. Este projeto está na versão `v0.0.1-alpha`, o que implica dizer que ele não está pronto para ser 
 lançado ao público, portanto, o trabalho nele continurá, o objetivo das próximas versões é implementar uma arquitetura que permita subir o projeto para
 internet de fato. Em uma versão totalmente madura da aplicação, o intuito é ser além de um PDV simples, mas todo um
 sistema de gerenciamento de recursos (ERP) para pequenas empresas. Atualizações virão em breve... 
+</div>
