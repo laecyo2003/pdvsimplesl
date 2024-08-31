@@ -110,7 +110,7 @@
                 <li>
                     <h4> Na Página de cadastro de produtos </h4>
                         <ul>
-                            <li> clique no botão de adicionar produto ao banco de dados</li>
+                            <li> clique no botão de adicionar produto ao banco de dados. </li>
                         </ul>
                 </li>
             </ul>
