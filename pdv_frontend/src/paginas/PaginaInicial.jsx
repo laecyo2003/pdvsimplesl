@@ -9,7 +9,7 @@ const PaginaInicial = () => {
     <div className='conatiner mt-3 mb-4'>
                     <div className='p-5 mt-4 rounded-lg mb-4 text-center titulo-aplicacao'>
                         <h1 style={{fontSize:'80px',fontWeight:'bold'}}> PANDSHIPDV </h1>
-                        <img src="pdv_imagens/PandshiPDV.png" alt="Logo Inicial do projeto" width="290px" height="290px"/>
+                        <img src="pdv_imagens/PandshiPDV.png" alt="Logo Inicial do projeto" width="292px" height="292px"/>
                         <h2 style={{fontSize:'50px',fontWeight:'bold'}}> SISTEMA DE PDV SIMPLES PARA PEQUENOS NEGÓCIOS </h2>
                     </div>
                 </div>
