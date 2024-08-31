@@ -173,7 +173,7 @@
             ```
 
 </div>
-            ```shell
+            ```bash
             npm install json-server
             ```
    
