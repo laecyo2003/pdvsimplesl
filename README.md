@@ -2,7 +2,7 @@
     <h1> 
       PANDSHIPDV  - SISTEMA DE PDV SIMPLES PARA PEQUENOS NEGÓCIOS
     </h1>
-    <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_frontend/public/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width="350px" height="350px"/>
+    <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/pdv_frontend/public/pdv_imagens/PandshiPDV.png?raw=true" alt="Logo Inicial do projeto" width="400px" height="400px"/>
     <p>
       <em> 
         Logo inicial do projeto
@@ -35,43 +35,43 @@
         Tela de vendas da aplicação
       </em>
     </p>
-        <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_vendas_adicao_produtoPandshiPDV.png?raw=true" alt="Tela de vendas da aplicação - produto adicionado à venda" width="960px" height="540px"/>
+        <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_vendas_adicao_produtoPandshiPDV.png?raw=true" alt="Tela de vendas da aplicação - produto adicionado à venda" width="287px" height="79px"/>
     <p>
       <em> 
-        Tela de vendas da aplicação - produto adicionado à venda
+        Tela de vendas da aplicação - notificação - produto adicionado à venda
+      </em>
+    </p>
+        <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_vendas_remocao_produtoPandshiPDV.png?raw=true" alt="Tela de vendas da aplicação - produto removido da venda" width="286px" height="74px"/>
+    <p>
+      <em> 
+        Tela de vendas da aplicação - notificação - produto removido da venda
+      </em>
+    </p>
+        <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_vendas_erro_trocoPandshiPDV.png?raw=true" alt="Tela de vendas da aplicação - notificação - quando o valor inserido no campo de pagamento feito pelo cliente é menor do que o valor final da compra" width="289px" height="133px"/>
+    <p>
+      <em> 
+        Tela de vendas da aplicação - notificação - quando o valor inserido no campo de pagamento feito pelo cliente é menor do que o valor final da compra
+      </em>
+    </p>
+            <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_vendas_safe_trocoPandshiPDV.png?raw=true" alt="Tela de vendas da aplicação - notificação - quando o valor inserido no campo de pagamento feito pelo cliente é maior ou igual ao valor final da compra" width="296px" height="72px"/>
+    <p>
+      <em> 
+        Tela de vendas da aplicação - notificação - quando o valor inserido no campo de pagamento feito pelo cliente é maior ou igual ao valor final da compra
+      </em>
+    </p>
+            <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_vendas_nova_vendaPandshiPDV.png?raw=true" alt="Tela de vendas da aplicação - notificação - finalização da venda" width="290px" height="75px"/>
+    <p>
+      <em> 
+        Tela de vendas da aplicação - notificação - finalização da venda
       </em>
     </p>
         <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_vendas_remocao_produtoPandshiPDV.png?raw=true" alt="Tela de vendas da aplicação - produto removido da venda" width="960px" height="540px"/>
     <p>
       <em> 
-        Tela de vendas da aplicação - produto removido da venda
+        Tela de vendas da aplicação - notificação - produto removido da venda
       </em>
     </p>
-        <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_vendas_erro_trocoPandshiPDV.png?raw=true" alt="Tela de vendas da aplicação - produto removido da venda" width="960px" height="540px"/>
-    <p>
-      <em> 
-        Tela de vendas da aplicação - quando o valor inserido no campo de pagamento feito pelo cliente é menor do que o valor final da compra
-      </em>
-    </p>
-            <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_vendas_safe_trocoPandshiPDV.png?raw=true" alt="Tela de vendas da aplicação - produto removido da venda" width="960px" height="540px"/>
-    <p>
-      <em> 
-        Tela de vendas da aplicação - quando o valor inserido no campo de pagamento feito pelo cliente é maior ou igual ao valor final da compra
-      </em>
-    </p>
-            <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_vendas_nova_vendaPandshiPDV.png?raw=true" alt="Tela de vendas da aplicação - produto removido da venda" width="960px" height="540px"/>
-    <p>
-      <em> 
-        Tela de vendas da aplicação - finalização da venda
-      </em>
-    </p>
-        <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_vendas_remocao_produtoPandshiPDV.png?raw=true" alt="Tela de vendas da aplicação - produto removido da venda" width="960px" height="540px"/>
-    <p>
-      <em> 
-        Tela de vendas da aplicação - produto removido da venda
-      </em>
-    </p>
-        <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_cadastrar_produtos_PandshiPDV.png?raw=true" alt="Tela de vendas da aplicação - produto removido da venda" width="960px" height="540px"/>
+        <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_cadastrar_produtos_PandshiPDV.png?raw=true" alt="Tela de cadastro de produtos da aplicação" width="960px" height="540px"/>
     <p>
       <em> 
         Tela de cadastro de produtos da aplicação
@@ -80,13 +80,13 @@
         <img src=https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_cadastrar_produtos_erroPandshiPDV.png?raw=true" alt="Tela de cadastro de produtos da aplicação - erro ID já existente" width="543px" height="444px"/>
     <p>
       <em> 
-        Tela de cadastro de produtos da aplicação - erro ID já existente
+        Tela de cadastro de produtos da aplicação - notificação - erro ID já existente
       </em>
     </p>
         <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_cadastrar_produtos_safePandshiPDV.png?raw=true" alt="Tela de cadastro de produtos da aplicação - produto adicionado ao banco de dados com sucesso" width="545px" height="449px"/>
     <p>
       <em> 
-        Tela de cadastro de produtos da aplicação - produto adicionado ao banco de dados com sucesso
+        Tela de cadastro de produtos da aplicação - notificação - produto adicionado ao banco de dados com sucesso
       </em>
     </p>
     </div>
