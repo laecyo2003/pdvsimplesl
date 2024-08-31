@@ -137,11 +137,13 @@
         </p>
             <ul>
                 <li>
-                    <h4> Git; </h4>
-                        <ul>
-                            <li> adição de um produto à venda; </li>
+                    <li> git; </li>
+                    <li> node; </li>
+                    <li> npm; </li>
+                        <ul> 
+                            <li> json-server </li>
+                            <li> react-toastify </li>
                         </ul>
-                    <h4> </h4>
                 </li>
             </ul>
         
