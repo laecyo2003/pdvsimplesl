@@ -132,6 +132,19 @@
     <h2>
         REPRODUZINDO O PROJETO
     </h2>
+        <p>
+            Para reproduzir o projeto é necessário possuir os seguintes pacotes instalados: 
+        </p>
+            <ul>
+                <li>
+                    <h4> Git; </h4>
+                        <ul>
+                            <li> adição de um produto à venda; </li>
+                        </ul>
+                    <h4> </h4>
+                </li>
+            </ul>
+        
 </div>
 
    
