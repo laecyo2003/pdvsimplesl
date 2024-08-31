@@ -153,25 +153,25 @@ Com os pacotes instalados, basta clonar este repositório, através do seguinte 
 git clone https://github.com/laecyo2003/pdvsimplesl.git
 ```
 Navegar até o diretório em que o repositório foi clonado, por exemplo, Downloads, através do comando:
-    ```shell
-        cd /home/seu_usuario/Downloads/pdvsimplesl
-    ```
+```shell
+    cd /home/seu_usuario/Downloads/pdvsimplesl
+```
 Abrir um editor de texto no local, por exemplo, o Visual Studio code, através do comando:
-    ```shell
-        code .
-    ```
+```shell
+    code .
+```
 Navegar até o diretório em que o repositório foi clonado, por exemplo, Downloads:
-    ```shell
-        cd /home/seu_usuario/Downloads/pdvsimplesl
-    ```
+```shell
+    cd /home/seu_usuario/Downloads/pdvsimplesl
+```
 Para abrir a aplicação React na localhost, por padrão, na porta http://localhost:3000, basta acessar o diretório pdv_frontend a partir de
 um terminal e inserir o seguinte comando:
-    ```shell
-        npm start 
-    ```
+```shell
+    npm start 
+```
 É preciso, também, iniciar o servidor local json-server na localhost, por exemplo, na porta http://localhost:5000, através do comando:
-    ```shell
-        json-server --watch produtos.json --port 5000 # Ou a porta de sua escolha
-    ```
+```shell
+    json-server --watch produtos.json --port 5000 # Ou a porta de sua escolha
+```
 
    
