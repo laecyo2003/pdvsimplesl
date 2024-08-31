@@ -19,6 +19,25 @@
             como projeto final referente à disciplina de Lógica de Programação - (LOP) - ECT3104 da Escola de Ciências e Tecnologia (ECT) da Universidade 
             Federal do Rio Grande do Norte (UFRN), ministrada pelo Professor ORIVALDO VIEIRA DE SANTANA JUNIOR, no período letivo 2024.1.
         </p>
+        <h2>
+    INTERFACE INICIAL DO PROJETO
+    </h2>
+    <div align="center"> 
+        <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_inicial_PandshiPDV.png?raw=true"
+            alt="Tela inicial da aplicação" width="960px" height="540px"/>
+    <p>
+      <em> 
+        Tela inicial da aplicação
+      </em>
+    </p>
+        <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_vendas_PandshiPDV.png?raw=true"
+            alt="Tela de vendas da aplicação" width="960px" height="540px"/>
+    <p>
+      <em> 
+        Tela de vendas da aplicação
+      </em>
+    </p>
+    </div>
     <h2>
         UMA VISÃO DO PANDSHIPDV PARA O USUÁRIO FINAL
     </h2>
@@ -50,18 +69,6 @@
                 </li>
             </ul>
         </p>
-    <h2>
-    INTERFACE INICIAL DO PROJETO
-    </h2>
-    <div align="center"> 
-        <img src="https://github.com/laecyo2003/pdvsimplesl/blob/master/PANDSHIPDV%20-%20Interface%20Inicial/tela_inicial_PandshiPDV.png?raw=true"
-            alt="Tela inicial da aplicação" width="960px" height="540px"/>
-    <p>
-      <em> 
-        Tela inicial da aplicação
-      </em>
-    </p>
-    </div>
     <h2>
         ARQUITETURA DO PROJETO
     </h2>
