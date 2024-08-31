@@ -129,6 +129,9 @@
     navegadores quanto para o Nodejs, ele é quem faz as requisições ao banco de dados, possibilitando, na Página de Vendas, a exibição dos produtos, a partir
     da ação de Ler (CRUD) e, na Página de cadastro de Produtos, as ações de criar e atualizar (CRUD).
         </p>
+    <h2>
+        REPRODUZINDO O PROJETO
+    </h2>
 </div>
 
    
