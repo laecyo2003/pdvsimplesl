@@ -93,7 +93,7 @@
                 </li>
             </ul>
     Para a construção das tabelas de exibição dos produtos e das informaçoes da venda foi utilizado o Framework Frontend
-    <a href="https://getbootstrap.com"/> Bootstrap </a>, que é responsável pela exibição de tabelas responsivas a partir da passagem de 
+    <a href="https://getbootstrap.com"/> Bootstrap </a>,que é responsável pela exibição de tabelas responsivas a partir da passagem de 
     marcações CSS, incluindo parâmetros do próprio Bootstrap. Além disso, as notificações exibidas quando as seguintes ações são realizadas:
             <ul>
                 <li>
