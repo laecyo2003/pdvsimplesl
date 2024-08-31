@@ -1,4 +1,4 @@
-```bash
+```shell
 npm install json-server
 ```
 
