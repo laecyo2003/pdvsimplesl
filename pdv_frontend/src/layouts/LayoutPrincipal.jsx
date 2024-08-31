@@ -11,7 +11,9 @@ const LayoutPrincipal = ({children}) => {
                 {/* Barra de navegação como um link */}
                     <nav className="navbar navbar-light barra-navegacao">
                         <div className="container">
-                            <Link to="/" className="navbar-brand"> Sistema PDV </Link>
+                            <Link to="/" className="navbar-brand"> PANDSHIPDV 
+                            <img src="pdv_imagens/PandshiPDV.png" alt="Logo Inicial do projeto" width="70px" height="70px"/>
+                            </Link>
                         </div>
                     </nav>
             </header>
