@@ -55,7 +55,7 @@
     </h2>
         <p>
             O PANDSHIPDV é uma aplicação web completa, ou seja, é composta de Backend e Frontend. Para a construção do frontend da aplicação foi utilizada a biblioteca REACTJS, 
-            ao passo que, para o Backend, foi utilizado o JSON-SERVER. Em termos de Frontend, a aplicação possui, nesta versão inicial, apenas 3 (três) páginas:
+            ao passo que, para o Backend, foi utilizado o JSON-SERVER. Em termos de Frontend, a aplicação possui, nesta versão inicial, apenas 3 (três) páginas
             <ul>
                 <li>
                     <h4> Página inicial </h4>
@@ -91,6 +91,8 @@
                         </ul>
                 </li>
             </ul>
+    Para a construção das tabelas de exibição dos produtos e das informaçoes da venda, foi utilizado o Framework Frontend <a> Bootstrap </a>, que é
+    responsável pela exibição de tabelas responsivas a partir da passagem de marcações CSS. <br>
     Já em termos de Backend, a aplicação foi estruturada sobre um servidor local baseado em um arquivo "db.json". Esse arquivo é "consumido" pela 
     <a href="https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces">API</a> (Interface de Programação de Aplicações) 
     de padrão <a href="https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api"> REST </a> (Transferência de Estado Representacional) gerada por um pacote 
@@ -101,6 +103,9 @@
     uma versão de testes. <br>
     A comunicação entre o banco de dados (o Backend) e as Páginas de vendas e de cadastro de produtos (o frontend) é realizada pelo
     pelo pacote do NPM para o NODEjs <a href="https://github.com/axios/axios"> Axios </a>, que é um servidor-cliente HTTP baseado em promessas tanto para
-    navegadores quanto para o Nodejs  
+    navegadores quanto para o Nodejs, ele é quem faz as requisições ao banco de dados, possibilitando, na Página de Vendas, a exibição dos produtos, a partir
+    da ação de Ler (CRUD) e, na Página de cadastro de Produtos, as ações de criar e atualizar (CRUD).
         </p>
 </div>
+
+   
