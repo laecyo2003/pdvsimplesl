@@ -92,9 +92,9 @@
                         </ul>
                 </li>
             </ul>
-    Para a construção das tabelas de exibição dos produtos e das informaçoes da venda, foi utilizado o Framework Frontend <a> Bootstrap </a>, que é
-    responsável pela exibição de tabelas responsivas a partir da passagem de marcações CSS. Além disso, as notificações exibidas quando as seguintes
-    ações são realizadas:
+    Para a construção das tabelas de exibição dos produtos e das informaçoes da venda foi utilizado o Framework Frontend
+    <a hrefhttps://getbootstrap.com/> Bootstrap </a>, que é responsável pela exibição de tabelas responsivas a partir da passagem de 
+    marcações CSS, incluindo parâmetros do próprio Bootstrap. Além disso, as notificações exibidas quando as seguintes ações são realizadas:
             <ul>
                 <li>
                     <h4> Na Página de vendas </h4>
@@ -114,6 +114,7 @@
                         </ul>
                 </li>
             </ul>
+    foram introduzidas à aplicação através do pacote do NPM para o NODEjs <a href="https://www.npmjs.com/package/react-toastify"> React-Toastify </a>.
     <br>
     Já em termos de Backend, a aplicação foi estruturada sobre um servidor local baseado em um arquivo "db.json". Esse arquivo é "consumido" pela 
     <a href="https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces">API</a> (Interface de Programação de Aplicações) 
