@@ -54,8 +54,9 @@
         ARQUITETURA DO PROJETO
     </h2>
         <p>
-            O PANDSHIPDV é uma aplicação web completa, ou seja, é composta de Backend e Frontend. Para a construção do frontend da aplicação foi utilizada a biblioteca REACTJS, 
-            ao passo que, para o Backend, foi utilizado o JSON-SERVER. Em termos de Frontend, a aplicação possui, nesta versão inicial, apenas 3 (três) páginas
+            O PANDSHIPDV é uma aplicação web completa, ou seja, é composta de Backend e Frontend. Para a construção do frontend da aplicação foi
+            utilizada a biblioteca REACTJS, ao passo que, para o Backend, foi utilizado o JSON-SERVER. Em termos de Frontend, a aplicação possui, nesta
+            versão inicial, apenas 3 (três) páginas
             <ul>
                 <li>
                     <h4> Página inicial </h4>
@@ -133,18 +134,43 @@
         REPRODUZINDO O PROJETO
     </h2>
         <p>
-            Para reproduzir o projeto é necessário possuir os seguintes pacotes instalados: 
-        </p>
-            <ul>
-                    <li> git </li>
-                    <li> node </li>
-                    <li> npm </li>
-                        <ul> 
-                             <li> axios </li>
-                            <li> json-server </li>
-                            <li> react-toastify </li>
-                        </ul>
-            </ul>
+            Para reproduzir o projeto é necessário possuir os seguintes pacotes e subpacotes instalados: 
+                <ul>
+                        <li> git </li>
+                        <li> node </li>
+                        <li> npm </li>
+                            <ul> 
+                                 <li> axios </li>
+                                <li> json-server </li>
+                                <li> react-toastify </li>
+                            </ul>
+                </ul>
+            Com os pacotes instalados, basta clonar este repositório, através do seguinte comando:
+            ```shell
+            git clone https://github.com/laecyo2003/pdvsimplesl.git
+            ```
+            Navegar até o diretório em que o repositório foi clonado, por exemplo, Downloads, através do comando:
+            ```shell
+             cd /home/seu_usuario/Downloads/pdvsimplesl
+            ```
+            Abrir um editor de texto no local, por exemplo, o Visual Studio code, através do comando:
+            ```shell
+             code .
+            ```
+            Navegar até o diretório em que o repositório foi clonado, por exemplo, Downloads:
+            ```shell
+             cd /home/seu_usuario/Downloads/pdvsimplesl
+            ```
+            Para abrir a aplicação React na localhost, por padrão, na porta http://localhost:3000, basta acessar o diretório pdv_frontend
+            a partir de um terminal e inserir o seguinte comando:
+            ```shell
+            npm start 
+            ```
+            É preciso, também, iniciar o servidor local json-server na localhost, por exemplo, na porta http://localhost:5000, através do comando:
+            ```shell
+             json-server --watch produtos.json --port 5000 # Ou a porta de sua escolha
+            ```
+    </p>
 </div>
 
    
