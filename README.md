@@ -136,7 +136,6 @@
             Para reproduzir o projeto é necessário possuir os seguintes pacotes instalados: 
         </p>
             <ul>
-                <li>
                     <li> git </li>
                     <li> node </li>
                     <li> npm </li>
@@ -145,7 +144,6 @@
                             <li> json-server </li>
                             <li> react-toastify </li>
                         </ul>
-                </li>
             </ul>
 </div>
 
